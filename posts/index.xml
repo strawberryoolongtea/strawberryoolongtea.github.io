@@ -1,28 +1,35 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on 苺ウーロン茶</title>
-    <link>http://example.org/posts/</link>
-    <description>Recent content in Posts on 苺ウーロン茶</description>
+    <title>Posts on strawberry 烏龍茶</title>
+    <link>https://strawberryoolongtea.github.io/posts/</link>
+    <description>Recent content in Posts on strawberry 烏龍茶</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 30 Apr 2022 23:14:55 +0900</lastBuildDate>
     
-	<atom:link href="http://example.org/posts/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://strawberryoolongtea.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Reference Post</title>
-      <link>http://example.org/posts/reference-post/</link>
+      <link>https://strawberryoolongtea.github.io/posts/reference-post/</link>
       <pubDate>Sat, 30 Apr 2022 23:14:55 +0900</pubDate>
       
-      <guid>http://example.org/posts/reference-post/</guid>
+      <guid>https://strawberryoolongtea.github.io/posts/reference-post/</guid>
       <description>&lt;h1 id=&#34;this-is-heading1&#34;&gt;This is heading1&lt;/h1&gt;
 &lt;h2 id=&#34;this-is-heading2&#34;&gt;This is heading2&lt;/h2&gt;
 &lt;h3 id=&#34;this-is-heading3&#34;&gt;This is heading3&lt;/h3&gt;
 &lt;p&gt;This is paragraph&lt;/p&gt;
 &lt;p&gt;자바스크립트&lt;/p&gt;
+&lt;blockquote&gt;
 &lt;p&gt;타입스크립트&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;console.log(&amp;#34;Hello world&amp;#34;);
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;&lt;strong&gt;hello&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;hello&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&lt;!-- raw HTML omitted --&gt;hello&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;
+&lt;p&gt;&lt;!-- raw HTML omitted --&gt;salamanders&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;
 </description>
     </item>
     

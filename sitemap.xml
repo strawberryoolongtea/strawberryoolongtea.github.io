@@ -2,17 +2,28 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://example.org/posts/</loc>
+    <loc>https://strawberryoolongtea.github.io/categories/</loc>
     <lastmod>2022-04-30T23:14:55+09:00</lastmod>
   </url><url>
-    <loc>http://example.org/posts/reference-post/</loc>
+    <loc>https://strawberryoolongtea.github.io/posts/</loc>
     <lastmod>2022-04-30T23:14:55+09:00</lastmod>
   </url><url>
-    <loc>http://example.org/</loc>
+    <loc>https://strawberryoolongtea.github.io/tags/react/</loc>
     <lastmod>2022-04-30T23:14:55+09:00</lastmod>
   </url><url>
-    <loc>http://example.org/categories/</loc>
+    <loc>https://strawberryoolongtea.github.io/posts/reference-post/</loc>
+    <lastmod>2022-04-30T23:14:55+09:00</lastmod>
   </url><url>
-    <loc>http://example.org/tags/</loc>
+    <loc>https://strawberryoolongtea.github.io/</loc>
+    <lastmod>2022-04-30T23:14:55+09:00</lastmod>
+  </url><url>
+    <loc>https://strawberryoolongtea.github.io/tags/</loc>
+    <lastmod>2022-04-30T23:14:55+09:00</lastmod>
+  </url><url>
+    <loc>https://strawberryoolongtea.github.io/tags/test/</loc>
+    <lastmod>2022-04-30T23:14:55+09:00</lastmod>
+  </url><url>
+    <loc>https://strawberryoolongtea.github.io/categories/til/</loc>
+    <lastmod>2022-04-30T23:14:55+09:00</lastmod>
   </url>
 </urlset>

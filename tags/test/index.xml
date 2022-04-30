@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>strawberry 烏龍茶</title>
-    <link>https://strawberryoolongtea.github.io/</link>
-    <description>Recent content on strawberry 烏龍茶</description>
+    <title>test on strawberry 烏龍茶</title>
+    <link>https://strawberryoolongtea.github.io/tags/test/</link>
+    <description>Recent content in test on strawberry 烏龍茶</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 30 Apr 2022 23:14:55 +0900</lastBuildDate>
     
-	<atom:link href="https://strawberryoolongtea.github.io/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://strawberryoolongtea.github.io/tags/test/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
