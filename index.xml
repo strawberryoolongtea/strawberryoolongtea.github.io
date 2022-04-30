@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>My New Hugo Site</title>
+    <title>苺ウーロン茶</title>
     <link>http://example.org/</link>
-    <description>Recent content on My New Hugo Site</description>
+    <description>Recent content on 苺ウーロン茶</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 30 Apr 2022 23:14:55 +0900</lastBuildDate>
@@ -12,12 +12,18 @@
     
     
     <item>
-      <title>My First Test Post</title>
-      <link>http://example.org/posts/my-first-post/</link>
+      <title>Reference Post</title>
+      <link>http://example.org/posts/reference-post/</link>
       <pubDate>Sat, 30 Apr 2022 23:14:55 +0900</pubDate>
       
-      <guid>http://example.org/posts/my-first-post/</guid>
-      <description></description>
+      <guid>http://example.org/posts/reference-post/</guid>
+      <description>&lt;h1 id=&#34;this-is-heading1&#34;&gt;This is heading1&lt;/h1&gt;
+&lt;h2 id=&#34;this-is-heading2&#34;&gt;This is heading2&lt;/h2&gt;
+&lt;h3 id=&#34;this-is-heading3&#34;&gt;This is heading3&lt;/h3&gt;
+&lt;p&gt;This is paragraph&lt;/p&gt;
+&lt;p&gt;자바스크립트&lt;/p&gt;
+&lt;p&gt;타입스크립트&lt;/p&gt;
+</description>
     </item>
     
   </channel>
