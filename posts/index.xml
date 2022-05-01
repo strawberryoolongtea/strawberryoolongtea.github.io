@@ -12,12 +12,50 @@
     
     
     <item>
-      <title>Reference Post</title>
-      <link>https://strawberryoolongtea.github.io/posts/reference-post/</link>
+      <title>Post Guide</title>
+      <link>https://strawberryoolongtea.github.io/posts/post-guide/</link>
       <pubDate>Sat, 30 Apr 2022 23:14:55 +0900</pubDate>
       
-      <guid>https://strawberryoolongtea.github.io/posts/reference-post/</guid>
-      <description>&lt;h1 id=&#34;this-is-heading1&#34;&gt;This is heading1&lt;/h1&gt;
+      <guid>https://strawberryoolongtea.github.io/posts/post-guide/</guid>
+      <description>&lt;h1 id=&#34;create-hugo-blog&#34;&gt;Create Hugo Blog&lt;/h1&gt;
+&lt;p&gt;휴고 블로그를 만드는 방법을 안내합니다.
+휴고 프로젝트를 생성하는 방법부터 콘텐츠는 어떻게 추가하는지 커스터마이징은 어떻게 하는지 이야기합니다.&lt;/p&gt;
+&lt;p&gt;자세한 사항은 &lt;a href=&#34;https://gohugo.io/getting-started/quick-start/&#34;&gt;Hugo Quick Start&lt;/a&gt; 및 &lt;a href=&#34;https://gohugo.io/documentation/&#34;&gt;Hugo Documentation&lt;/a&gt;를 확인하세요.&lt;/p&gt;
+&lt;p&gt;아래부터 이어지는 방법론은 Mac 환경 및 &lt;a href=&#34;https://github.com/heyeshuang/hugo-theme-tokiwa&#34;&gt;Tokiwa&lt;/a&gt; 테마가 적용된 블로그를 기준으로 작성되었습니다. 윈도우 환경이나 다른 테마의 사용 방법과는 일부 차이가 있을 수 있습니다.&lt;/p&gt;
+&lt;h2 id=&#34;install-hugo&#34;&gt;Install Hugo&lt;/h2&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;brew install hugo
+&lt;/code&gt;&lt;/pre&gt;&lt;h2 id=&#34;create-new-site&#34;&gt;create new site&lt;/h2&gt;
+&lt;p&gt;새로운 휴고 프로젝트를 생성합니다. 여기서는 &lt;code&gt;test-blog&lt;/code&gt; 라는 프로젝트를 만들겠습니다.&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;hugo new site {project name}
+&lt;/code&gt;&lt;/pre&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;hugo new site test-blog
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;다음과 같은 구조의 폴더가 생성됩니다.&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;.
+├── archetypes
+│   └── default.md
+├── config.toml
+├── content
+├── data
+├── layouts
+├── public
+├── static
+└── themes
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;새롭게 생성한 프로젝트의 루트에서 깃을 초기화하고 원하는 테마의 서브모듈을 추가합니다.&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;cd {project name}
+git init
+git submodule add {git repository} {path}
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;휴고 블로그 테마는 &lt;a href=&#34;https://themes.gohugo.io/&#34;&gt;여기&lt;/a&gt;에서 확인할 수 있습니다.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;cd test-blog
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;git init
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;git submodule add https://github.com/heyeshuang/hugo-theme-tokiwa.git themes/hugo-theme-tokiwa
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;strong&gt;submodule&lt;/strong&gt;을 추가하고 나면 &lt;code&gt;.gitmodules&lt;/code&gt; 파일이 다음과 같이 추가된 것을 확인할 수 있습니다.&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;[submodule &amp;#34;themes/hugo-theme-tokiwa&amp;#34;]
+	path = themes/hugo-theme-tokiwa
+	url = https://github.com/heyeshuang/hugo-theme-tokiwa.git
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;&lt;code&gt;config.toml&lt;/code&gt; 파일을 다음과 같이 작성합니다.&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;baseURL = &amp;#39;http://example.org/&amp;#39;
+languageCode = &amp;#39;en-us&amp;#39;
+title = &amp;#39;My New Hugo Site&amp;#39;
+&lt;/code&gt;&lt;/pre&gt;&lt;h1 id=&#34;this-is-heading1&#34;&gt;This is heading1&lt;/h1&gt;
 &lt;h2 id=&#34;this-is-heading2&#34;&gt;This is heading2&lt;/h2&gt;
 &lt;h3 id=&#34;this-is-heading3&#34;&gt;This is heading3&lt;/h3&gt;
 &lt;p&gt;This is paragraph&lt;/p&gt;
@@ -25,12 +63,13 @@
 &lt;blockquote&gt;
 &lt;p&gt;타입스크립트&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;console.log(&amp;#34;Hello world&amp;#34;);
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;
+console.log(&amp;#34;Hello world&amp;#34;);
 &lt;/code&gt;&lt;/pre&gt;&lt;p&gt;&lt;strong&gt;hello&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;&lt;code&gt;hello&lt;/code&gt;&lt;/p&gt;
 &lt;p&gt;&lt;!-- raw HTML omitted --&gt;hello&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;
 &lt;p&gt;&lt;!-- raw HTML omitted --&gt;salamanders&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;
-</description>
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;&lt;/code&gt;&lt;/pre&gt;</description>
     </item>
     
   </channel>

@@ -1,31 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>strawberry 烏龍茶</title>
-    <link>https://strawberryoolongtea.github.io/</link>
-    <description>Recent content on strawberry 烏龍茶</description>
+    <title>helloworld on strawberry 烏龍茶</title>
+    <link>https://strawberryoolongtea.github.io/tags/helloworld/</link>
+    <description>Recent content in helloworld on strawberry 烏龍茶</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 30 Apr 2022 23:14:55 +0900</lastBuildDate>
     
-	<atom:link href="https://strawberryoolongtea.github.io/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://strawberryoolongtea.github.io/tags/helloworld/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>About me</title>
-      <link>https://strawberryoolongtea.github.io/about/</link>
-      <pubDate>Sun, 01 May 2022 10:54:30 +0900</pubDate>
-      
-      <guid>https://strawberryoolongtea.github.io/about/</guid>
-      <description>&lt;h1 id=&#34;hello-_new-world_&#34;&gt;Hello &lt;em&gt;new world!&lt;/em&gt;&lt;/h1&gt;
-&lt;p&gt;A developer who want to break the existing world&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://strawberryoolongtea.github.io/profile.jpg&#34; alt=&#34;my profile&#34;&gt;&lt;/p&gt;
-&lt;p&gt;시각디자인 전공 및 웹디자인 실무의 경험을 바탕으로 사용자 중심의 섬세하고 감각적인 UI를 기술적으로 구현하기 위해 고민하고 다양한 사람들과의 협업을 통해 더 나은 가치를 전달할 수 있는 일에 최선을 다하는 개발자 김수빈, 일명 &lt;strong&gt;딸기우롱차&lt;/strong&gt;입니다.&lt;/p&gt;
-&lt;p&gt;시각예술, 인문학, 문학을 비롯한 콘텐츠 문화에 대한 이해를 바탕으로 적절한 지식과 기술을 통해서 새롭고 매력적인 가치를 만들어 내고 싶습니다.&lt;/p&gt;
-&lt;p&gt;Based on my experience in visual design and web design, I am Su-bin Kim, a.k.a &lt;strong&gt;Strawberry Oolong Tea&lt;/strong&gt;, a developer who thinks about technically implementing user-centered delicate and sensuous UI and does his best to deliver better value through collaboration with various people.&lt;/p&gt;
-&lt;p&gt;I want to create new and attractive values through appropriate knowledge and technology based on my understanding of content culture including visual arts, humanities, and literature.&lt;/p&gt;
-</description>
-    </item>
     
     <item>
       <title>Post Guide</title>
