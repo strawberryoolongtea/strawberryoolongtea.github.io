@@ -6,26 +6,44 @@
     <description>Recent content in Tags on strawberry 烏龍茶</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 30 Apr 2022 23:14:55 +0900</lastBuildDate>
+    <lastBuildDate>Sun, 01 May 2022 12:52:10 +0900</lastBuildDate>
     
 	<atom:link href="https://strawberryoolongtea.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>guide</title>
-      <link>https://strawberryoolongtea.github.io/tags/guide/</link>
-      <pubDate>Sat, 30 Apr 2022 23:14:55 +0900</pubDate>
+      <title>Javascript</title>
+      <link>https://strawberryoolongtea.github.io/tags/javascript/</link>
+      <pubDate>Sun, 01 May 2022 12:52:10 +0900</pubDate>
       
-      <guid>https://strawberryoolongtea.github.io/tags/guide/</guid>
+      <guid>https://strawberryoolongtea.github.io/tags/javascript/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>helloworld</title>
-      <link>https://strawberryoolongtea.github.io/tags/helloworld/</link>
+      <title>What I Learned</title>
+      <link>https://strawberryoolongtea.github.io/tags/what-i-learned/</link>
+      <pubDate>Sun, 01 May 2022 12:52:10 +0900</pubDate>
+      
+      <guid>https://strawberryoolongtea.github.io/tags/what-i-learned/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>SSG</title>
+      <link>https://strawberryoolongtea.github.io/tags/ssg/</link>
       <pubDate>Sat, 30 Apr 2022 23:14:55 +0900</pubDate>
       
-      <guid>https://strawberryoolongtea.github.io/tags/helloworld/</guid>
+      <guid>https://strawberryoolongtea.github.io/tags/ssg/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Today I Learned</title>
+      <link>https://strawberryoolongtea.github.io/tags/today-i-learned/</link>
+      <pubDate>Sat, 30 Apr 2022 23:14:55 +0900</pubDate>
+      
+      <guid>https://strawberryoolongtea.github.io/tags/today-i-learned/</guid>
       <description></description>
     </item>
     

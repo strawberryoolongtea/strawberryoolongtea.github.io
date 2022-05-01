@@ -1,63 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on strawberry 烏龍茶</title>
-    <link>https://strawberryoolongtea.github.io/posts/</link>
-    <description>Recent content in Posts on strawberry 烏龍茶</description>
+    <title>Today I Learned on strawberry 烏龍茶</title>
+    <link>https://strawberryoolongtea.github.io/tags/today-i-learned/</link>
+    <description>Recent content in Today I Learned on strawberry 烏龍茶</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 01 May 2022 12:52:10 +0900</lastBuildDate>
+    <lastBuildDate>Sat, 30 Apr 2022 23:14:55 +0900</lastBuildDate>
     
-	<atom:link href="https://strawberryoolongtea.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://strawberryoolongtea.github.io/tags/today-i-learned/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>Javascript Cheat Sheet</title>
-      <link>https://strawberryoolongtea.github.io/posts/javascript-cheat-sheet/</link>
-      <pubDate>Sun, 01 May 2022 12:52:10 +0900</pubDate>
-      
-      <guid>https://strawberryoolongtea.github.io/posts/javascript-cheat-sheet/</guid>
-      <description>&lt;h2 id=&#34;array&#34;&gt;Array&lt;/h2&gt;
-&lt;h3 id=&#34;prototype-methods&#34;&gt;Prototype Methods&lt;/h3&gt;
-&lt;h3 id=&#34;what-about-array-at-javascript&#34;&gt;What about array at javascript&lt;/h3&gt;
-&lt;p&gt;자바스크립트 데이터 타입에는 원시 타입과 객체 타입이 있다.&lt;/p&gt;
-&lt;p&gt;원시 타입 (primitive data type)&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;boolean&lt;/li&gt;
-&lt;li&gt;null&lt;/li&gt;
-&lt;li&gt;undefined&lt;/li&gt;
-&lt;li&gt;number&lt;/li&gt;
-&lt;li&gt;string&lt;/li&gt;
-&lt;li&gt;symbol (ES6에서 추가되었다.)&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;객체 타입 (object/reference type)&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;object&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;자바스크립트의 배열은 배열의 기능을 하는 객체 타입의 자료구조를 말한다.&lt;/p&gt;
-&lt;p&gt;배열을 &lt;code&gt;typeof&lt;/code&gt; 키워드로 타입을 검사하면 &lt;code&gt;&#39;object&#39;&lt;/code&gt;로 나타나기 때문에 Array prototype의 메서드인 &lt;code&gt;isArray()&lt;/code&gt;를 사용해야 한다.&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-javascript&#34; data-lang=&#34;javascript&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;console&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;log&lt;/span&gt;(&lt;span style=&#34;color:#66d9ef&#34;&gt;typeof&lt;/span&gt; [&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;🍓&amp;#34;&lt;/span&gt;, &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;🍓🍓&amp;#34;&lt;/span&gt;, &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;🍓🍓🍓&amp;#34;&lt;/span&gt;]); &lt;span style=&#34;color:#75715e&#34;&gt;// &amp;#39;object&amp;#39;
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;console&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;log&lt;/span&gt;(Array.&lt;span style=&#34;color:#a6e22e&#34;&gt;isArray&lt;/span&gt;([&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;🍓&amp;#34;&lt;/span&gt;, &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;🍓🍓&amp;#34;&lt;/span&gt;, &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;🍓🍓🍓&amp;#34;&lt;/span&gt;])); &lt;span style=&#34;color:#75715e&#34;&gt;// true
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;console&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;log&lt;/span&gt;(Array.&lt;span style=&#34;color:#a6e22e&#34;&gt;isArray&lt;/span&gt;(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;🍓&amp;#34;&lt;/span&gt;, &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;🍓🍓&amp;#34;&lt;/span&gt;, &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;🍓🍓🍓&amp;#34;&lt;/span&gt;)); &lt;span style=&#34;color:#75715e&#34;&gt;// false
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;object&#34;&gt;Object&lt;/h2&gt;
-&lt;h2 id=&#34;scope&#34;&gt;Scope&lt;/h2&gt;
-&lt;p&gt;모든 식별자(변수 이름, 함수 이름, 클래스 이름 등)는 자신이 선언된 위치에 의해 다른 코드가 식별자 자신을 참조할 수 있는 유효 범위가 결정된다. 즉, 식별자가 유효한 범위를 스코프라고 한다.&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-javascript&#34; data-lang=&#34;javascript&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;const&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;strawberry&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;I like strawberry&amp;#34;&lt;/span&gt;;
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;function&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;print&lt;/span&gt;() {
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#66d9ef&#34;&gt;const&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;strawberry&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;I love strawberry&amp;#34;&lt;/span&gt;;
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#a6e22e&#34;&gt;console&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;log&lt;/span&gt;(&lt;span style=&#34;color:#a6e22e&#34;&gt;strawberry&lt;/span&gt;);
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;}
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;print&lt;/span&gt;(); &lt;span style=&#34;color:#75715e&#34;&gt;// &amp;#39;I love strawberry&amp;#39;
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;위와 같은 상황에서 자바스크립트 엔진은 이름이 같은 &lt;code&gt;strawberry&lt;/code&gt; 중에서 어떤 걸 참조해야할지 결정해야 한다. 이를 &lt;strong&gt;식별자 결정&lt;/strong&gt;이라 한다.&lt;/p&gt;
-&lt;p&gt;자바스크립트 엔진은 스코프를 통해 어떤 식별자를 참조할 지 결정한다. 즉, 스코프란 &lt;strong&gt;식별자를 검색할 때 사용하는 규칙&lt;/strong&gt;이라고 할 수 있다.&lt;/p&gt;
-&lt;p&gt;자바스크립트 엔진은 코드를 실행할 때 코드의 문맥&lt;!-- raw HTML omitted --&gt;context&lt;!-- raw HTML omitted --&gt;을 고려한다.&lt;/p&gt;
-&lt;p&gt;스코프를 통해 같은 이름의 식별자를 사용할 수 있다. 스코프 내에서는 식별자가 유일해야 하지만 다른 스코프에서는 같은 식별자를 사용할 수 있다.&lt;/p&gt;
-&lt;p&gt;이와 관련해서 &lt;code&gt;var&lt;/code&gt; 키워드로 선언된 변수는 같은 스코프 내에서 중복 선언이 허용된다. 이는 변수값이 재할당되는 의도치 않은 부작용(side effect)를 초래할 수 있다.&lt;/p&gt;
-&lt;h3 id=&#34;lexical&#34;&gt;Lexical&lt;/h3&gt;
-</description>
-    </item>
     
     <item>
       <title>Hugo Post Guide</title>

@@ -6,10 +6,58 @@
     <description>Recent content on strawberry 烏龍茶</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 30 Apr 2022 23:14:55 +0900</lastBuildDate>
+    <lastBuildDate>Sun, 01 May 2022 12:52:10 +0900</lastBuildDate>
     
 	<atom:link href="https://strawberryoolongtea.github.io/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Javascript Cheat Sheet</title>
+      <link>https://strawberryoolongtea.github.io/posts/javascript-cheat-sheet/</link>
+      <pubDate>Sun, 01 May 2022 12:52:10 +0900</pubDate>
+      
+      <guid>https://strawberryoolongtea.github.io/posts/javascript-cheat-sheet/</guid>
+      <description>&lt;h2 id=&#34;array&#34;&gt;Array&lt;/h2&gt;
+&lt;h3 id=&#34;prototype-methods&#34;&gt;Prototype Methods&lt;/h3&gt;
+&lt;h3 id=&#34;what-about-array-at-javascript&#34;&gt;What about array at javascript&lt;/h3&gt;
+&lt;p&gt;자바스크립트 데이터 타입에는 원시 타입과 객체 타입이 있다.&lt;/p&gt;
+&lt;p&gt;원시 타입 (primitive data type)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;boolean&lt;/li&gt;
+&lt;li&gt;null&lt;/li&gt;
+&lt;li&gt;undefined&lt;/li&gt;
+&lt;li&gt;number&lt;/li&gt;
+&lt;li&gt;string&lt;/li&gt;
+&lt;li&gt;symbol (ES6에서 추가되었다.)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;객체 타입 (object/reference type)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;object&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;자바스크립트의 배열은 배열의 기능을 하는 객체 타입의 자료구조를 말한다.&lt;/p&gt;
+&lt;p&gt;배열을 &lt;code&gt;typeof&lt;/code&gt; 키워드로 타입을 검사하면 &lt;code&gt;&#39;object&#39;&lt;/code&gt;로 나타나기 때문에 Array prototype의 메서드인 &lt;code&gt;isArray()&lt;/code&gt;를 사용해야 한다.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-javascript&#34; data-lang=&#34;javascript&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;console&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;log&lt;/span&gt;(&lt;span style=&#34;color:#66d9ef&#34;&gt;typeof&lt;/span&gt; [&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;🍓&amp;#34;&lt;/span&gt;, &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;🍓🍓&amp;#34;&lt;/span&gt;, &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;🍓🍓🍓&amp;#34;&lt;/span&gt;]); &lt;span style=&#34;color:#75715e&#34;&gt;// &amp;#39;object&amp;#39;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;console&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;log&lt;/span&gt;(Array.&lt;span style=&#34;color:#a6e22e&#34;&gt;isArray&lt;/span&gt;([&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;🍓&amp;#34;&lt;/span&gt;, &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;🍓🍓&amp;#34;&lt;/span&gt;, &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;🍓🍓🍓&amp;#34;&lt;/span&gt;])); &lt;span style=&#34;color:#75715e&#34;&gt;// true
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;console&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;log&lt;/span&gt;(Array.&lt;span style=&#34;color:#a6e22e&#34;&gt;isArray&lt;/span&gt;(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;🍓&amp;#34;&lt;/span&gt;, &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;🍓🍓&amp;#34;&lt;/span&gt;, &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;🍓🍓🍓&amp;#34;&lt;/span&gt;)); &lt;span style=&#34;color:#75715e&#34;&gt;// false
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;object&#34;&gt;Object&lt;/h2&gt;
+&lt;h2 id=&#34;scope&#34;&gt;Scope&lt;/h2&gt;
+&lt;p&gt;모든 식별자(변수 이름, 함수 이름, 클래스 이름 등)는 자신이 선언된 위치에 의해 다른 코드가 식별자 자신을 참조할 수 있는 유효 범위가 결정된다. 즉, 식별자가 유효한 범위를 스코프라고 한다.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-javascript&#34; data-lang=&#34;javascript&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;const&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;strawberry&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;I like strawberry&amp;#34;&lt;/span&gt;;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;function&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;print&lt;/span&gt;() {
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#66d9ef&#34;&gt;const&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;strawberry&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;I love strawberry&amp;#34;&lt;/span&gt;;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#a6e22e&#34;&gt;console&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;log&lt;/span&gt;(&lt;span style=&#34;color:#a6e22e&#34;&gt;strawberry&lt;/span&gt;);
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;}
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;print&lt;/span&gt;(); &lt;span style=&#34;color:#75715e&#34;&gt;// &amp;#39;I love strawberry&amp;#39;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;위와 같은 상황에서 자바스크립트 엔진은 이름이 같은 &lt;code&gt;strawberry&lt;/code&gt; 중에서 어떤 걸 참조해야할지 결정해야 한다. 이를 &lt;strong&gt;식별자 결정&lt;/strong&gt;이라 한다.&lt;/p&gt;
+&lt;p&gt;자바스크립트 엔진은 스코프를 통해 어떤 식별자를 참조할 지 결정한다. 즉, 스코프란 &lt;strong&gt;식별자를 검색할 때 사용하는 규칙&lt;/strong&gt;이라고 할 수 있다.&lt;/p&gt;
+&lt;p&gt;자바스크립트 엔진은 코드를 실행할 때 코드의 문맥&lt;!-- raw HTML omitted --&gt;context&lt;!-- raw HTML omitted --&gt;을 고려한다.&lt;/p&gt;
+&lt;p&gt;스코프를 통해 같은 이름의 식별자를 사용할 수 있다. 스코프 내에서는 식별자가 유일해야 하지만 다른 스코프에서는 같은 식별자를 사용할 수 있다.&lt;/p&gt;
+&lt;p&gt;이와 관련해서 &lt;code&gt;var&lt;/code&gt; 키워드로 선언된 변수는 같은 스코프 내에서 중복 선언이 허용된다. 이는 변수값이 재할당되는 의도치 않은 부작용(side effect)를 초래할 수 있다.&lt;/p&gt;
+&lt;h3 id=&#34;lexical&#34;&gt;Lexical&lt;/h3&gt;
+</description>
+    </item>
     
     <item>
       <title>About me</title>
@@ -20,27 +68,29 @@
       <description>&lt;h1 id=&#34;hello-_new-world_&#34;&gt;Hello &lt;em&gt;new world!&lt;/em&gt;&lt;/h1&gt;
 &lt;p&gt;A developer who want to break the existing world&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;https://strawberryoolongtea.github.io/profile.jpg&#34; alt=&#34;my profile&#34;&gt;&lt;/p&gt;
-&lt;p&gt;시각디자인 전공 및 웹디자인 실무의 경험을 바탕으로 사용자 중심의 섬세하고 감각적인 UI를 기술적으로 구현하기 위해 고민하고 다양한 사람들과의 협업을 통해 더 나은 가치를 전달할 수 있는 일에 최선을 다하는 개발자 김수빈, 일명 &lt;strong&gt;딸기우롱차&lt;/strong&gt;입니다.&lt;/p&gt;
-&lt;p&gt;시각예술, 인문학, 문학을 비롯한 콘텐츠 문화에 대한 이해를 바탕으로 적절한 지식과 기술을 통해서 새롭고 매력적인 가치를 만들어 내고 싶습니다.&lt;/p&gt;
+&lt;p&gt;시각디자인 전공 및 웹디자인 실무의 경험을 토대로 사용자 중심의 섬세하고 감각적인 UI를 기술적으로 구현하기 위해 고민하고 다양한 사람들과의 협업을 통해 더 나은 가치를 전달할 수 있는 일에 최선을 다하는 개발자 김수빈, 일명 &lt;strong&gt;딸기우롱차&lt;/strong&gt;입니다.&lt;/p&gt;
+&lt;p&gt;시각예술, 문학, 애니메이션, 게임을 비롯한 콘텐츠 문화에 대한 관심과 이해를 바탕으로 적절한 지식과 기술을 통해서 새롭고 매력적인 가치를 만들어 내고 싶습니다.&lt;/p&gt;
 &lt;p&gt;Based on my experience in visual design and web design, I am Su-bin Kim, a.k.a &lt;strong&gt;Strawberry Oolong Tea&lt;/strong&gt;, a developer who thinks about technically implementing user-centered delicate and sensuous UI and does his best to deliver better value through collaboration with various people.&lt;/p&gt;
-&lt;p&gt;I want to create new and attractive values through appropriate knowledge and technology based on my understanding of content culture including visual arts, humanities, and literature.&lt;/p&gt;
+&lt;p&gt;I want to create new and attractive values through appropriate knowledge and technology based on my understanding of content culture including visual arts, literature, animation and games.&lt;/p&gt;
+&lt;p&gt;ビジュアルデザインとウェブデザインの経験をもとに、ユーザー中心の繊細で感覚的な UI を技術的に実現しようと悩んで、様々な人々との協業を通じてより良い価値を伝えるために最善を尽くすソフトウェア開発者、キム·スビン別名&lt;strong&gt;ストロベリーウーロン茶&lt;/strong&gt;です。&lt;/p&gt;
+&lt;p&gt;視覚芸術、文学、アニメーション、ゲームをはじめとするコンテンツ文化に対する関心と理解を土台に、適切な知識と技術を通じて新しい魅力的な価値を創出しようとしています。&lt;/p&gt;
 </description>
     </item>
     
     <item>
-      <title>Post Guide</title>
+      <title>Hugo Post Guide</title>
       <link>https://strawberryoolongtea.github.io/posts/post-guide/</link>
       <pubDate>Sat, 30 Apr 2022 23:14:55 +0900</pubDate>
       
       <guid>https://strawberryoolongtea.github.io/posts/post-guide/</guid>
-      <description>&lt;h1 id=&#34;create-hugo-blog&#34;&gt;Create Hugo Blog&lt;/h1&gt;
+      <description>&lt;h2 id=&#34;create-hugo-blog&#34;&gt;Create Hugo Blog&lt;/h2&gt;
 &lt;p&gt;휴고 블로그를 만드는 방법을 안내합니다.
 휴고 프로젝트를 생성하는 방법부터 콘텐츠는 어떻게 추가하는지 커스터마이징은 어떻게 하는지 이야기합니다.&lt;/p&gt;
 &lt;p&gt;자세한 사항은 &lt;a href=&#34;https://gohugo.io/getting-started/quick-start/&#34;&gt;Hugo Quick Start&lt;/a&gt; 및 &lt;a href=&#34;https://gohugo.io/documentation/&#34;&gt;Hugo Documentation&lt;/a&gt;를 확인하세요.&lt;/p&gt;
 &lt;p&gt;아래부터 이어지는 방법론은 Mac 환경 및 &lt;a href=&#34;https://github.com/heyeshuang/hugo-theme-tokiwa&#34;&gt;Tokiwa&lt;/a&gt; 테마가 적용된 블로그를 기준으로 작성되었습니다. 윈도우 환경이나 다른 테마의 사용 방법과는 일부 차이가 있을 수 있습니다.&lt;/p&gt;
-&lt;h2 id=&#34;install-hugo&#34;&gt;Install Hugo&lt;/h2&gt;
+&lt;h3 id=&#34;install-hugo&#34;&gt;Install Hugo&lt;/h3&gt;
 &lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;brew install hugo
-&lt;/code&gt;&lt;/pre&gt;&lt;h2 id=&#34;create-new-site&#34;&gt;create new site&lt;/h2&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;h3 id=&#34;create-new-project&#34;&gt;Create New Project&lt;/h3&gt;
 &lt;p&gt;새로운 휴고 프로젝트를 생성합니다. 여기서는 &lt;code&gt;test-blog&lt;/code&gt; 라는 프로젝트를 만들겠습니다.&lt;/p&gt;
 &lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;hugo new site {project name}
 &lt;/code&gt;&lt;/pre&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;hugo new site test-blog
@@ -71,7 +121,28 @@ git submodule add {git repository} {path}
 &lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;baseURL = &amp;#39;http://example.org/&amp;#39;
 languageCode = &amp;#39;en-us&amp;#39;
 title = &amp;#39;My New Hugo Site&amp;#39;
-&lt;/code&gt;&lt;/pre&gt;&lt;h1 id=&#34;this-is-heading1&#34;&gt;This is heading1&lt;/h1&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;루트에서&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;hugo new posts/javascript-cheat-sheet.md
+&lt;/code&gt;&lt;/pre&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;# default&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;---
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;title: &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Javascript Cheat Sheet&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;date: 2022-05-01T12:52:10+09:00
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;draft: true
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;---
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;# front matter&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;---
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;title: &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Post Guide&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;date: 2022-04-30T23:14:55+09:00
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;draft: true
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;author: &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;strawberry oolong tea&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;description: &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;How to create hugo blog&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;categories: &lt;span style=&#34;color:#f92672&#34;&gt;[&lt;/span&gt;TIL&lt;span style=&#34;color:#f92672&#34;&gt;]&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;tags: &lt;span style=&#34;color:#f92672&#34;&gt;[&lt;/span&gt;guide, helloworld&lt;span style=&#34;color:#f92672&#34;&gt;]&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;aliases: &lt;span style=&#34;color:#f92672&#34;&gt;[&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;migrate-from-jekyl&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;]&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;toc: true
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;---
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h1 id=&#34;this-is-heading1&#34;&gt;This is heading1&lt;/h1&gt;
 &lt;h2 id=&#34;this-is-heading2&#34;&gt;This is heading2&lt;/h2&gt;
 &lt;h3 id=&#34;this-is-heading3&#34;&gt;This is heading3&lt;/h3&gt;
 &lt;p&gt;This is paragraph&lt;/p&gt;
