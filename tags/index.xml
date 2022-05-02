@@ -6,10 +6,28 @@
     <description>Recent content in Tags on strawberry 烏龍茶</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 01 May 2022 12:52:10 +0900</lastBuildDate>
+    <lastBuildDate>Mon, 02 May 2022 11:09:24 +0900</lastBuildDate>
     
 	<atom:link href="https://strawberryoolongtea.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>HTML</title>
+      <link>https://strawberryoolongtea.github.io/tags/html/</link>
+      <pubDate>Mon, 02 May 2022 11:09:24 +0900</pubDate>
+      
+      <guid>https://strawberryoolongtea.github.io/tags/html/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>What I Learned</title>
+      <link>https://strawberryoolongtea.github.io/tags/what-i-learned/</link>
+      <pubDate>Mon, 02 May 2022 11:09:24 +0900</pubDate>
+      
+      <guid>https://strawberryoolongtea.github.io/tags/what-i-learned/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Javascript</title>
@@ -17,15 +35,6 @@
       <pubDate>Sun, 01 May 2022 12:52:10 +0900</pubDate>
       
       <guid>https://strawberryoolongtea.github.io/tags/javascript/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>What I Learned</title>
-      <link>https://strawberryoolongtea.github.io/tags/what-i-learned/</link>
-      <pubDate>Sun, 01 May 2022 12:52:10 +0900</pubDate>
-      
-      <guid>https://strawberryoolongtea.github.io/tags/what-i-learned/</guid>
       <description></description>
     </item>
     

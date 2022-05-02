@@ -192,7 +192,7 @@ onload='renderMathInElement(document.body);'></script>
     <li><a href="#object">Object</a></li>
     <li><a href="#scope">Scope</a>
       <ul>
-        <li><a href="#lexical">Lexical</a></li>
+        <li><a href="#스코프의-구분">스코프의 구분</a></li>
       </ul>
     </li>
   </ul>
@@ -213,7 +213,7 @@ onload='renderMathInElement(document.body);'></script>
 		<div class="c-rich-text"><h2 id="array">Array</h2>
 <h3 id="prototype-methods">Prototype Methods</h3>
 <h3 id="what-about-array-at-javascript">What about array at javascript</h3>
-<p>자바스크립트 데이터 타입에는 원시 타입과 객체 타입이 있다.</p>
+<p>자바스크립트 데이터 타입에는 원시 타입과 객체 타입이 있습니다.</p>
 <p>원시 타입 (primitive data type)</p>
 <ul>
 <li>boolean</li>
@@ -245,10 +245,21 @@ onload='renderMathInElement(document.body);'></script>
 </span></span><span style="display:flex;"><span><span style="color:#a6e22e">print</span>(); <span style="color:#75715e">// &#39;I love strawberry&#39;
 </span></span></span></code></pre></div><p>위와 같은 상황에서 자바스크립트 엔진은 이름이 같은 <code>strawberry</code> 중에서 어떤 걸 참조해야할지 결정해야 한다. 이를 <strong>식별자 결정</strong>이라 한다.</p>
 <p>자바스크립트 엔진은 스코프를 통해 어떤 식별자를 참조할 지 결정한다. 즉, 스코프란 <strong>식별자를 검색할 때 사용하는 규칙</strong>이라고 할 수 있다.</p>
-<p>자바스크립트 엔진은 코드를 실행할 때 코드의 문맥<!-- raw HTML omitted -->context<!-- raw HTML omitted -->을 고려한다.</p>
+<p>자바스크립트 엔진은 코드를 실행할 때 코드의 문맥<sup>context</sup>을 고려한다.</p>
 <p>스코프를 통해 같은 이름의 식별자를 사용할 수 있다. 스코프 내에서는 식별자가 유일해야 하지만 다른 스코프에서는 같은 식별자를 사용할 수 있다.</p>
 <p>이와 관련해서 <code>var</code> 키워드로 선언된 변수는 같은 스코프 내에서 중복 선언이 허용된다. 이는 변수값이 재할당되는 의도치 않은 부작용(side effect)를 초래할 수 있다.</p>
-<h3 id="lexical">Lexical</h3>
+<h3 id="스코프의-구분">스코프의 구분</h3>
+<p>스코프는 전역 스코프와 지역 스코프로 구분할 수 있다.</p>
+<p>전역 스코프</p>
+<ul>
+<li>코드 어디에서든지 참조할 수 있다.</li>
+</ul>
+<p>지역 스코프</p>
+<ul>
+<li>함수 코드 블록이 만든 스코프로 함수 자신과 하위 함수에서만 참조할 수 있다.</li>
+</ul>
+<p>자바스크립트는 함수 레벨 스코프를 따른다. 함수 레벨 스코프란 함수 코드 블록 내에서 선언된 변수는 함수 코드 블록 내에서만 유효하고 함수 외부에서는 유효하지 않다는 것이다. 유효하다는 것은 참조(접근)가 가능하다는 것을 말한다.</p>
+<p>ES6에서 도입된 <code>let</code> 키워드로 변수를 선언하면 블록 레벨 스코프를 가지게 된다.</p>
 </div>
 	</section>
 
@@ -268,6 +279,19 @@ onload='renderMathInElement(document.body);'></script>
 	<li class="px-1 md:px-0">
 		<a href="/about/" title="About page" >
 			About
+		</a>
+	</li>
+	
+	<li class="px-1 md:px-0">
+		<a href="/projects/" title="Projects page" >
+			Projects
+		</a>
+	</li>
+	
+	<li class="px-1 md:px-0">
+		<a href="/posts/" title="Posts page" 
+			class="font-medium text-medium-red-violet-600 hover:text-medium-red-violet-400" >
+			Posts
 		</a>
 	</li>
 	
@@ -309,7 +333,7 @@ onload='renderMathInElement(document.body);'></script>
 	<div class="text-sm text-gray-500 leading-tight a-gray">
 		
 		<br />
-		Built with Hugo and theme <a href="https://github.com/heyeshuang/hugo-theme-tokiwa">Tokiwa</a>. 213 words in this page.
+		Built with Hugo and theme <a href="https://github.com/heyeshuang/hugo-theme-tokiwa">Tokiwa</a>. 284 words in this page.
 	</div>
 </div>
 
@@ -328,6 +352,13 @@ onload='renderMathInElement(document.body);'></script>
         About me
     </a>
     
+    
+    <a class="flex-grow-0" href="/posts/html-cheat-sheet/">
+        Html Cheat Sheet
+        <svg class="fill-current inline-block h-4 w-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24"
+            height="24">
+            <path fill="none" d="M0 0h24v24H0z" />
+            <path d="M16.172 11l-5.364-5.364 1.414-1.414L20 12l-7.778 7.778-1.414-1.414L16.172 13H4v-2z" /></svg></a>
     
 </div>
 <div >

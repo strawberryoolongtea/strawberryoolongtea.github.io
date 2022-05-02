@@ -6,10 +6,22 @@
     <description>Recent content in What I Learned on strawberry 烏龍茶</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 01 May 2022 12:52:10 +0900</lastBuildDate>
+    <lastBuildDate>Mon, 02 May 2022 11:09:24 +0900</lastBuildDate>
     
 	<atom:link href="https://strawberryoolongtea.github.io/tags/what-i-learned/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Html Cheat Sheet</title>
+      <link>https://strawberryoolongtea.github.io/posts/html-cheat-sheet/</link>
+      <pubDate>Mon, 02 May 2022 11:09:24 +0900</pubDate>
+      
+      <guid>https://strawberryoolongtea.github.io/posts/html-cheat-sheet/</guid>
+      <description>&lt;h2 id=&#34;html5-canvas&#34;&gt;HTML5 Canvas&lt;/h2&gt;
+&lt;h3 id=&#34;canvas-api&#34;&gt;Canvas API&lt;/h3&gt;
+&lt;p&gt;Canvas API는 자바스크립트와 &lt;canvas&gt; 엘리먼트를 이용해 애니메이션, 게임 그래픽, 데이터 시각화, 사진 조작 및 실시간 비디오 처리와 같은 그래픽을 그리기 위완 수단을 제공한다.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Javascript Cheat Sheet</title>
@@ -20,7 +32,7 @@
       <description>&lt;h2 id=&#34;array&#34;&gt;Array&lt;/h2&gt;
 &lt;h3 id=&#34;prototype-methods&#34;&gt;Prototype Methods&lt;/h3&gt;
 &lt;h3 id=&#34;what-about-array-at-javascript&#34;&gt;What about array at javascript&lt;/h3&gt;
-&lt;p&gt;자바스크립트 데이터 타입에는 원시 타입과 객체 타입이 있다.&lt;/p&gt;
+&lt;p&gt;자바스크립트 데이터 타입에는 원시 타입과 객체 타입이 있습니다.&lt;/p&gt;
 &lt;p&gt;원시 타입 (primitive data type)&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;boolean&lt;/li&gt;
@@ -52,10 +64,21 @@
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;print&lt;/span&gt;(); &lt;span style=&#34;color:#75715e&#34;&gt;// &amp;#39;I love strawberry&amp;#39;
 &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;위와 같은 상황에서 자바스크립트 엔진은 이름이 같은 &lt;code&gt;strawberry&lt;/code&gt; 중에서 어떤 걸 참조해야할지 결정해야 한다. 이를 &lt;strong&gt;식별자 결정&lt;/strong&gt;이라 한다.&lt;/p&gt;
 &lt;p&gt;자바스크립트 엔진은 스코프를 통해 어떤 식별자를 참조할 지 결정한다. 즉, 스코프란 &lt;strong&gt;식별자를 검색할 때 사용하는 규칙&lt;/strong&gt;이라고 할 수 있다.&lt;/p&gt;
-&lt;p&gt;자바스크립트 엔진은 코드를 실행할 때 코드의 문맥&lt;!-- raw HTML omitted --&gt;context&lt;!-- raw HTML omitted --&gt;을 고려한다.&lt;/p&gt;
+&lt;p&gt;자바스크립트 엔진은 코드를 실행할 때 코드의 문맥&lt;sup&gt;context&lt;/sup&gt;을 고려한다.&lt;/p&gt;
 &lt;p&gt;스코프를 통해 같은 이름의 식별자를 사용할 수 있다. 스코프 내에서는 식별자가 유일해야 하지만 다른 스코프에서는 같은 식별자를 사용할 수 있다.&lt;/p&gt;
 &lt;p&gt;이와 관련해서 &lt;code&gt;var&lt;/code&gt; 키워드로 선언된 변수는 같은 스코프 내에서 중복 선언이 허용된다. 이는 변수값이 재할당되는 의도치 않은 부작용(side effect)를 초래할 수 있다.&lt;/p&gt;
-&lt;h3 id=&#34;lexical&#34;&gt;Lexical&lt;/h3&gt;
+&lt;h3 id=&#34;스코프의-구분&#34;&gt;스코프의 구분&lt;/h3&gt;
+&lt;p&gt;스코프는 전역 스코프와 지역 스코프로 구분할 수 있다.&lt;/p&gt;
+&lt;p&gt;전역 스코프&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;코드 어디에서든지 참조할 수 있다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;지역 스코프&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;함수 코드 블록이 만든 스코프로 함수 자신과 하위 함수에서만 참조할 수 있다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;자바스크립트는 함수 레벨 스코프를 따른다. 함수 레벨 스코프란 함수 코드 블록 내에서 선언된 변수는 함수 코드 블록 내에서만 유효하고 함수 외부에서는 유효하지 않다는 것이다. 유효하다는 것은 참조(접근)가 가능하다는 것을 말한다.&lt;/p&gt;
+&lt;p&gt;ES6에서 도입된 &lt;code&gt;let&lt;/code&gt; 키워드로 변수를 선언하면 블록 레벨 스코프를 가지게 된다.&lt;/p&gt;
 </description>
     </item>
     

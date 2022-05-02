@@ -183,12 +183,14 @@ onload='renderMathInElement(document.body);'></script>
 <div class="inline toc-content">
     <nav id="TableOfContents">
   <ul>
-    <li><a href="#create-hugo-blog">Create Hugo Blog</a>
+    <li><a href="#start-hugo-blog">Start Hugo Blog</a>
       <ul>
         <li><a href="#install-hugo">Install Hugo</a></li>
         <li><a href="#create-new-project">Create New Project</a></li>
+        <li><a href="#configure-blog">Configure Blog</a></li>
       </ul>
     </li>
+    <li><a href="#create-new-post">Create New Post</a></li>
   </ul>
 
   <ul>
@@ -212,7 +214,7 @@ onload='renderMathInElement(document.body);'></script>
 
 <article>
 	<section class="mx-auto content">
-		<div class="c-rich-text"><h2 id="create-hugo-blog">Create Hugo Blog</h2>
+		<div class="c-rich-text"><h2 id="start-hugo-blog">Start Hugo Blog</h2>
 <p>휴고 블로그를 만드는 방법을 안내합니다.
 휴고 프로젝트를 생성하는 방법부터 콘텐츠는 어떻게 추가하는지 커스터마이징은 어떻게 하는지 이야기합니다.</p>
 <p>자세한 사항은 <a href="https://gohugo.io/getting-started/quick-start/">Hugo Quick Start</a> 및 <a href="https://gohugo.io/documentation/">Hugo Documentation</a>를 확인하세요.</p>
@@ -234,23 +236,25 @@ onload='renderMathInElement(document.body);'></script>
 ├── public
 ├── static
 └── themes
-</code></pre><p>새롭게 생성한 프로젝트의 루트에서 깃을 초기화하고 원하는 테마의 서브모듈을 추가합니다.</p>
+</code></pre><p>새롭게 생성한 프로젝트의 루트에서 깃을 초기화하고 원하는 테마의 <a href="https://git-scm.com/book/en/v2/Git-Tools-Submodules"><strong>submodule</strong></a>을 추가합니다.</p>
 <pre tabindex="0"><code>cd {project name}
 git init
 git submodule add {git repository} {path}
-</code></pre><p>휴고 블로그 테마는 <a href="https://themes.gohugo.io/">여기</a>에서 확인할 수 있습니다.</p>
+</code></pre><p>휴고 블로그 테마는 <a href="https://themes.gohugo.io/"><strong>themes.gohugo.io</strong></a>에서 확인할 수 있습니다.</p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>cd test-blog
 </span></span><span style="display:flex;"><span>git init
 </span></span><span style="display:flex;"><span>git submodule add https://github.com/heyeshuang/hugo-theme-tokiwa.git themes/hugo-theme-tokiwa
-</span></span></code></pre></div><p><strong>submodule</strong>을 추가하고 나면 <code>.gitmodules</code> 파일이 다음과 같이 추가된 것을 확인할 수 있습니다.</p>
+</span></span></code></pre></div><p>서브모듈을 추가하고 나면 <code>.gitmodules</code> 파일이 다음과 같이 추가된 것을 확인할 수 있습니다.</p>
 <pre tabindex="0"><code>[submodule &#34;themes/hugo-theme-tokiwa&#34;]
 	path = themes/hugo-theme-tokiwa
 	url = https://github.com/heyeshuang/hugo-theme-tokiwa.git
-</code></pre><p><code>config.toml</code> 파일을 다음과 같이 작성합니다.</p>
+</code></pre><h3 id="configure-blog">Configure Blog</h3>
+<p>프로젝트의 루트에서 <code>config.toml</code> 파일을 확인할 수 있습니다.</p>
 <pre tabindex="0"><code>baseURL = &#39;http://example.org/&#39;
 languageCode = &#39;en-us&#39;
 title = &#39;My New Hugo Site&#39;
-</code></pre><p>루트에서</p>
+</code></pre><h2 id="create-new-post">Create New Post</h2>
+<p>루트에서</p>
 <pre tabindex="0"><code>hugo new posts/javascript-cheat-sheet.md
 </code></pre><div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span><span style="color:#75715e"># default</span>
 </span></span><span style="display:flex;"><span>---
@@ -259,11 +263,8 @@ title = &#39;My New Hugo Site&#39;
 </span></span><span style="display:flex;"><span>draft: true
 </span></span><span style="display:flex;"><span>---
 </span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span><span style="color:#75715e"># front matter</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># front matter boilerplate</span>
 </span></span><span style="display:flex;"><span>---
-</span></span><span style="display:flex;"><span>title: <span style="color:#e6db74">&#34;Post Guide&#34;</span>
-</span></span><span style="display:flex;"><span>date: 2022-04-30T23:14:55+09:00
-</span></span><span style="display:flex;"><span>draft: true
 </span></span><span style="display:flex;"><span>author: <span style="color:#e6db74">&#34;strawberry oolong tea&#34;</span>
 </span></span><span style="display:flex;"><span>description: <span style="color:#e6db74">&#34;How to create hugo blog&#34;</span>
 </span></span><span style="display:flex;"><span>categories: <span style="color:#f92672">[</span>TIL<span style="color:#f92672">]</span>
@@ -283,8 +284,8 @@ title = &#39;My New Hugo Site&#39;
 console.log(&#34;Hello world&#34;);
 </code></pre><p><strong>hello</strong></p>
 <p><code>hello</code></p>
-<p><!-- raw HTML omitted -->hello<!-- raw HTML omitted --></p>
-<p><!-- raw HTML omitted -->salamanders<!-- raw HTML omitted --></p>
+<p><mark>hello</mark></p>
+<p><mark>salamanders</mark></p>
 <pre tabindex="0"><code></code></pre></div>
 	</section>
 
@@ -304,6 +305,19 @@ console.log(&#34;Hello world&#34;);
 	<li class="px-1 md:px-0">
 		<a href="/about/" title="About page" >
 			About
+		</a>
+	</li>
+	
+	<li class="px-1 md:px-0">
+		<a href="/projects/" title="Projects page" >
+			Projects
+		</a>
+	</li>
+	
+	<li class="px-1 md:px-0">
+		<a href="/posts/" title="Posts page" 
+			class="font-medium text-medium-red-violet-600 hover:text-medium-red-violet-400" >
+			Posts
 		</a>
 	</li>
 	
@@ -345,7 +359,7 @@ console.log(&#34;Hello world&#34;);
 	<div class="text-sm text-gray-500 leading-tight a-gray">
 		
 		<br />
-		Built with Hugo and theme <a href="https://github.com/heyeshuang/hugo-theme-tokiwa">Tokiwa</a>. 242 words in this page.
+		Built with Hugo and theme <a href="https://github.com/heyeshuang/hugo-theme-tokiwa">Tokiwa</a>. 244 words in this page.
 	</div>
 </div>
 

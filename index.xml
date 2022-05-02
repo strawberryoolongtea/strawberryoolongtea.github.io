@@ -6,10 +6,32 @@
     <description>Recent content on strawberry 烏龍茶</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 01 May 2022 12:52:10 +0900</lastBuildDate>
+    <lastBuildDate>Mon, 02 May 2022 11:09:24 +0900</lastBuildDate>
     
 	<atom:link href="https://strawberryoolongtea.github.io/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Projects</title>
+      <link>https://strawberryoolongtea.github.io/projects/</link>
+      <pubDate>Mon, 02 May 2022 19:16:14 +0900</pubDate>
+      
+      <guid>https://strawberryoolongtea.github.io/projects/</guid>
+      <description>&lt;h2 id=&#34;debate-ducks&#34;&gt;DEBATE DUCKS&lt;/h2&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Html Cheat Sheet</title>
+      <link>https://strawberryoolongtea.github.io/posts/html-cheat-sheet/</link>
+      <pubDate>Mon, 02 May 2022 11:09:24 +0900</pubDate>
+      
+      <guid>https://strawberryoolongtea.github.io/posts/html-cheat-sheet/</guid>
+      <description>&lt;h2 id=&#34;html5-canvas&#34;&gt;HTML5 Canvas&lt;/h2&gt;
+&lt;h3 id=&#34;canvas-api&#34;&gt;Canvas API&lt;/h3&gt;
+&lt;p&gt;Canvas API는 자바스크립트와 &lt;canvas&gt; 엘리먼트를 이용해 애니메이션, 게임 그래픽, 데이터 시각화, 사진 조작 및 실시간 비디오 처리와 같은 그래픽을 그리기 위완 수단을 제공한다.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Javascript Cheat Sheet</title>
@@ -20,7 +42,7 @@
       <description>&lt;h2 id=&#34;array&#34;&gt;Array&lt;/h2&gt;
 &lt;h3 id=&#34;prototype-methods&#34;&gt;Prototype Methods&lt;/h3&gt;
 &lt;h3 id=&#34;what-about-array-at-javascript&#34;&gt;What about array at javascript&lt;/h3&gt;
-&lt;p&gt;자바스크립트 데이터 타입에는 원시 타입과 객체 타입이 있다.&lt;/p&gt;
+&lt;p&gt;자바스크립트 데이터 타입에는 원시 타입과 객체 타입이 있습니다.&lt;/p&gt;
 &lt;p&gt;원시 타입 (primitive data type)&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;boolean&lt;/li&gt;
@@ -52,10 +74,21 @@
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;print&lt;/span&gt;(); &lt;span style=&#34;color:#75715e&#34;&gt;// &amp;#39;I love strawberry&amp;#39;
 &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;위와 같은 상황에서 자바스크립트 엔진은 이름이 같은 &lt;code&gt;strawberry&lt;/code&gt; 중에서 어떤 걸 참조해야할지 결정해야 한다. 이를 &lt;strong&gt;식별자 결정&lt;/strong&gt;이라 한다.&lt;/p&gt;
 &lt;p&gt;자바스크립트 엔진은 스코프를 통해 어떤 식별자를 참조할 지 결정한다. 즉, 스코프란 &lt;strong&gt;식별자를 검색할 때 사용하는 규칙&lt;/strong&gt;이라고 할 수 있다.&lt;/p&gt;
-&lt;p&gt;자바스크립트 엔진은 코드를 실행할 때 코드의 문맥&lt;!-- raw HTML omitted --&gt;context&lt;!-- raw HTML omitted --&gt;을 고려한다.&lt;/p&gt;
+&lt;p&gt;자바스크립트 엔진은 코드를 실행할 때 코드의 문맥&lt;sup&gt;context&lt;/sup&gt;을 고려한다.&lt;/p&gt;
 &lt;p&gt;스코프를 통해 같은 이름의 식별자를 사용할 수 있다. 스코프 내에서는 식별자가 유일해야 하지만 다른 스코프에서는 같은 식별자를 사용할 수 있다.&lt;/p&gt;
 &lt;p&gt;이와 관련해서 &lt;code&gt;var&lt;/code&gt; 키워드로 선언된 변수는 같은 스코프 내에서 중복 선언이 허용된다. 이는 변수값이 재할당되는 의도치 않은 부작용(side effect)를 초래할 수 있다.&lt;/p&gt;
-&lt;h3 id=&#34;lexical&#34;&gt;Lexical&lt;/h3&gt;
+&lt;h3 id=&#34;스코프의-구분&#34;&gt;스코프의 구분&lt;/h3&gt;
+&lt;p&gt;스코프는 전역 스코프와 지역 스코프로 구분할 수 있다.&lt;/p&gt;
+&lt;p&gt;전역 스코프&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;코드 어디에서든지 참조할 수 있다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;지역 스코프&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;함수 코드 블록이 만든 스코프로 함수 자신과 하위 함수에서만 참조할 수 있다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;자바스크립트는 함수 레벨 스코프를 따른다. 함수 레벨 스코프란 함수 코드 블록 내에서 선언된 변수는 함수 코드 블록 내에서만 유효하고 함수 외부에서는 유효하지 않다는 것이다. 유효하다는 것은 참조(접근)가 가능하다는 것을 말한다.&lt;/p&gt;
+&lt;p&gt;ES6에서 도입된 &lt;code&gt;let&lt;/code&gt; 키워드로 변수를 선언하면 블록 레벨 스코프를 가지게 된다.&lt;/p&gt;
 </description>
     </item>
     
@@ -66,14 +99,27 @@
       
       <guid>https://strawberryoolongtea.github.io/about/</guid>
       <description>&lt;h1 id=&#34;hello-_new-world_&#34;&gt;Hello &lt;em&gt;new world!&lt;/em&gt;&lt;/h1&gt;
-&lt;p&gt;A developer who want to break the existing world&lt;/p&gt;
+&lt;p&gt;☪︎ A developer who want to break the existing world ✦&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;https://strawberryoolongtea.github.io/profile.jpg&#34; alt=&#34;my profile&#34;&gt;&lt;/p&gt;
 &lt;p&gt;시각디자인 전공 및 웹디자인 실무의 경험을 토대로 사용자 중심의 섬세하고 감각적인 UI를 기술적으로 구현하기 위해 고민하고 다양한 사람들과의 협업을 통해 더 나은 가치를 전달할 수 있는 일에 최선을 다하는 개발자 김수빈, 일명 &lt;strong&gt;딸기우롱차&lt;/strong&gt;입니다.&lt;/p&gt;
 &lt;p&gt;시각예술, 문학, 애니메이션, 게임을 비롯한 콘텐츠 문화에 대한 관심과 이해를 바탕으로 적절한 지식과 기술을 통해서 새롭고 매력적인 가치를 만들어 내고 싶습니다.&lt;/p&gt;
-&lt;p&gt;Based on my experience in visual design and web design, I am Su-bin Kim, a.k.a &lt;strong&gt;Strawberry Oolong Tea&lt;/strong&gt;, a developer who thinks about technically implementing user-centered delicate and sensuous UI and does his best to deliver better value through collaboration with various people.&lt;/p&gt;
+&lt;p&gt;Based on my experience in visual design and web design, I am Su-bin Kim, a.k.a &lt;strong&gt;Strawberry Oolong Tea&lt;/strong&gt;, a developer who thinks about technically implementing user-centered delicate and sensuous UI and do my best to deliver better value through collaboration with various people.&lt;/p&gt;
 &lt;p&gt;I want to create new and attractive values through appropriate knowledge and technology based on my understanding of content culture including visual arts, literature, animation and games.&lt;/p&gt;
 &lt;p&gt;ビジュアルデザインとウェブデザインの経験をもとに、ユーザー中心の繊細で感覚的な UI を技術的に実現しようと悩んで、様々な人々との協業を通じてより良い価値を伝えるために最善を尽くすソフトウェア開発者、キム·スビン別名&lt;strong&gt;ストロベリーウーロン茶&lt;/strong&gt;です。&lt;/p&gt;
 &lt;p&gt;視覚芸術、文学、アニメーション、ゲームをはじめとするコンテンツ文化に対する関心と理解を土台に、適切な知識と技術を通じて新しい魅力的な価値を創出しようとしています。&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;more-about-me&#34;&gt;More About Me&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;공감을 잘합니다. 다른 사람의 감정을 이해하려고 애쓰며 배려 중심의 의사소통을 중시합니다.&lt;/li&gt;
+&lt;li&gt;세상에 대해 관대하고 수용적이며 유연한 시각으로 대상을 관찰하고 사고합니다.&lt;/li&gt;
+&lt;li&gt;다양한 생각을 존중하고 새로운 것에 대한 거부감이 없으며 쉽게 적응합니다.&lt;/li&gt;
+&lt;li&gt;목표를 위해 수단과 방법을 가리지 않습니다. 원하는 것을 이루기까지 포기하지 않습니다.&lt;/li&gt;
+&lt;li&gt;즉흥적이고 감성적이지만 이성적이고 논리적인 동료의 말을 귀담아 듣습니다.&lt;/li&gt;
+&lt;li&gt;타인과 상황에 대해 인정하고 배울 점이 될 만한 부분을 발견하려고 합니다.&lt;/li&gt;
+&lt;li&gt;규칙적인 운동으로 사소한 스트레스를 해소하고 정신을 갈고 닦습니다. &lt;a href=&#34;https://www.instagram.com/4.8fit/&#34;&gt;&lt;strong&gt;운동스타그램&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;힘든 상황을 이겨냈을 때는 스스로에게 다음과 같은 것들을 보상합니다.&lt;/li&gt;
+&lt;li&gt;e.g. 만화책 10~20권, 삼겹살 파티, 애니메이션 굿즈, 동해 바다 여행&lt;/li&gt;
+&lt;/ul&gt;
 </description>
     </item>
     
@@ -83,7 +129,7 @@
       <pubDate>Sat, 30 Apr 2022 23:14:55 +0900</pubDate>
       
       <guid>https://strawberryoolongtea.github.io/posts/post-guide/</guid>
-      <description>&lt;h2 id=&#34;create-hugo-blog&#34;&gt;Create Hugo Blog&lt;/h2&gt;
+      <description>&lt;h2 id=&#34;start-hugo-blog&#34;&gt;Start Hugo Blog&lt;/h2&gt;
 &lt;p&gt;휴고 블로그를 만드는 방법을 안내합니다.
 휴고 프로젝트를 생성하는 방법부터 콘텐츠는 어떻게 추가하는지 커스터마이징은 어떻게 하는지 이야기합니다.&lt;/p&gt;
 &lt;p&gt;자세한 사항은 &lt;a href=&#34;https://gohugo.io/getting-started/quick-start/&#34;&gt;Hugo Quick Start&lt;/a&gt; 및 &lt;a href=&#34;https://gohugo.io/documentation/&#34;&gt;Hugo Documentation&lt;/a&gt;를 확인하세요.&lt;/p&gt;
@@ -105,23 +151,25 @@
 ├── public
 ├── static
 └── themes
-&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;새롭게 생성한 프로젝트의 루트에서 깃을 초기화하고 원하는 테마의 서브모듈을 추가합니다.&lt;/p&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;새롭게 생성한 프로젝트의 루트에서 깃을 초기화하고 원하는 테마의 &lt;a href=&#34;https://git-scm.com/book/en/v2/Git-Tools-Submodules&#34;&gt;&lt;strong&gt;submodule&lt;/strong&gt;&lt;/a&gt;을 추가합니다.&lt;/p&gt;
 &lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;cd {project name}
 git init
 git submodule add {git repository} {path}
-&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;휴고 블로그 테마는 &lt;a href=&#34;https://themes.gohugo.io/&#34;&gt;여기&lt;/a&gt;에서 확인할 수 있습니다.&lt;/p&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;휴고 블로그 테마는 &lt;a href=&#34;https://themes.gohugo.io/&#34;&gt;&lt;strong&gt;themes.gohugo.io&lt;/strong&gt;&lt;/a&gt;에서 확인할 수 있습니다.&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;cd test-blog
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;git init
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;git submodule add https://github.com/heyeshuang/hugo-theme-tokiwa.git themes/hugo-theme-tokiwa
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;strong&gt;submodule&lt;/strong&gt;을 추가하고 나면 &lt;code&gt;.gitmodules&lt;/code&gt; 파일이 다음과 같이 추가된 것을 확인할 수 있습니다.&lt;/p&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;서브모듈을 추가하고 나면 &lt;code&gt;.gitmodules&lt;/code&gt; 파일이 다음과 같이 추가된 것을 확인할 수 있습니다.&lt;/p&gt;
 &lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;[submodule &amp;#34;themes/hugo-theme-tokiwa&amp;#34;]
 	path = themes/hugo-theme-tokiwa
 	url = https://github.com/heyeshuang/hugo-theme-tokiwa.git
-&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;&lt;code&gt;config.toml&lt;/code&gt; 파일을 다음과 같이 작성합니다.&lt;/p&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;h3 id=&#34;configure-blog&#34;&gt;Configure Blog&lt;/h3&gt;
+&lt;p&gt;프로젝트의 루트에서 &lt;code&gt;config.toml&lt;/code&gt; 파일을 확인할 수 있습니다.&lt;/p&gt;
 &lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;baseURL = &amp;#39;http://example.org/&amp;#39;
 languageCode = &amp;#39;en-us&amp;#39;
 title = &amp;#39;My New Hugo Site&amp;#39;
-&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;루트에서&lt;/p&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;h2 id=&#34;create-new-post&#34;&gt;Create New Post&lt;/h2&gt;
+&lt;p&gt;루트에서&lt;/p&gt;
 &lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;hugo new posts/javascript-cheat-sheet.md
 &lt;/code&gt;&lt;/pre&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;# default&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;---
@@ -130,11 +178,8 @@ title = &amp;#39;My New Hugo Site&amp;#39;
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;draft: true
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;---
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;# front matter&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;# front matter boilerplate&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;---
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;title: &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Post Guide&amp;#34;&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;date: 2022-04-30T23:14:55+09:00
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;draft: true
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;author: &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;strawberry oolong tea&amp;#34;&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;description: &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;How to create hugo blog&amp;#34;&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;categories: &lt;span style=&#34;color:#f92672&#34;&gt;[&lt;/span&gt;TIL&lt;span style=&#34;color:#f92672&#34;&gt;]&lt;/span&gt;
@@ -154,8 +199,8 @@ title = &amp;#39;My New Hugo Site&amp;#39;
 console.log(&amp;#34;Hello world&amp;#34;);
 &lt;/code&gt;&lt;/pre&gt;&lt;p&gt;&lt;strong&gt;hello&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;&lt;code&gt;hello&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;&lt;!-- raw HTML omitted --&gt;hello&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;
-&lt;p&gt;&lt;!-- raw HTML omitted --&gt;salamanders&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;
+&lt;p&gt;&lt;mark&gt;hello&lt;/mark&gt;&lt;/p&gt;
+&lt;p&gt;&lt;mark&gt;salamanders&lt;/mark&gt;&lt;/p&gt;
 &lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;&lt;/code&gt;&lt;/pre&gt;</description>
     </item>
     

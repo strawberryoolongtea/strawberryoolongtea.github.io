@@ -17,7 +17,7 @@
       <pubDate>Sat, 30 Apr 2022 23:14:55 +0900</pubDate>
       
       <guid>https://strawberryoolongtea.github.io/posts/post-guide/</guid>
-      <description>&lt;h2 id=&#34;create-hugo-blog&#34;&gt;Create Hugo Blog&lt;/h2&gt;
+      <description>&lt;h2 id=&#34;start-hugo-blog&#34;&gt;Start Hugo Blog&lt;/h2&gt;
 &lt;p&gt;휴고 블로그를 만드는 방법을 안내합니다.
 휴고 프로젝트를 생성하는 방법부터 콘텐츠는 어떻게 추가하는지 커스터마이징은 어떻게 하는지 이야기합니다.&lt;/p&gt;
 &lt;p&gt;자세한 사항은 &lt;a href=&#34;https://gohugo.io/getting-started/quick-start/&#34;&gt;Hugo Quick Start&lt;/a&gt; 및 &lt;a href=&#34;https://gohugo.io/documentation/&#34;&gt;Hugo Documentation&lt;/a&gt;를 확인하세요.&lt;/p&gt;
@@ -39,23 +39,25 @@
 ├── public
 ├── static
 └── themes
-&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;새롭게 생성한 프로젝트의 루트에서 깃을 초기화하고 원하는 테마의 서브모듈을 추가합니다.&lt;/p&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;새롭게 생성한 프로젝트의 루트에서 깃을 초기화하고 원하는 테마의 &lt;a href=&#34;https://git-scm.com/book/en/v2/Git-Tools-Submodules&#34;&gt;&lt;strong&gt;submodule&lt;/strong&gt;&lt;/a&gt;을 추가합니다.&lt;/p&gt;
 &lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;cd {project name}
 git init
 git submodule add {git repository} {path}
-&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;휴고 블로그 테마는 &lt;a href=&#34;https://themes.gohugo.io/&#34;&gt;여기&lt;/a&gt;에서 확인할 수 있습니다.&lt;/p&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;휴고 블로그 테마는 &lt;a href=&#34;https://themes.gohugo.io/&#34;&gt;&lt;strong&gt;themes.gohugo.io&lt;/strong&gt;&lt;/a&gt;에서 확인할 수 있습니다.&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;cd test-blog
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;git init
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;git submodule add https://github.com/heyeshuang/hugo-theme-tokiwa.git themes/hugo-theme-tokiwa
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;strong&gt;submodule&lt;/strong&gt;을 추가하고 나면 &lt;code&gt;.gitmodules&lt;/code&gt; 파일이 다음과 같이 추가된 것을 확인할 수 있습니다.&lt;/p&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;서브모듈을 추가하고 나면 &lt;code&gt;.gitmodules&lt;/code&gt; 파일이 다음과 같이 추가된 것을 확인할 수 있습니다.&lt;/p&gt;
 &lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;[submodule &amp;#34;themes/hugo-theme-tokiwa&amp;#34;]
 	path = themes/hugo-theme-tokiwa
 	url = https://github.com/heyeshuang/hugo-theme-tokiwa.git
-&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;&lt;code&gt;config.toml&lt;/code&gt; 파일을 다음과 같이 작성합니다.&lt;/p&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;h3 id=&#34;configure-blog&#34;&gt;Configure Blog&lt;/h3&gt;
+&lt;p&gt;프로젝트의 루트에서 &lt;code&gt;config.toml&lt;/code&gt; 파일을 확인할 수 있습니다.&lt;/p&gt;
 &lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;baseURL = &amp;#39;http://example.org/&amp;#39;
 languageCode = &amp;#39;en-us&amp;#39;
 title = &amp;#39;My New Hugo Site&amp;#39;
-&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;루트에서&lt;/p&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;h2 id=&#34;create-new-post&#34;&gt;Create New Post&lt;/h2&gt;
+&lt;p&gt;루트에서&lt;/p&gt;
 &lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;hugo new posts/javascript-cheat-sheet.md
 &lt;/code&gt;&lt;/pre&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;# default&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;---
@@ -64,11 +66,8 @@ title = &amp;#39;My New Hugo Site&amp;#39;
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;draft: true
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;---
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;# front matter&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;# front matter boilerplate&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;---
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;title: &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Post Guide&amp;#34;&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;date: 2022-04-30T23:14:55+09:00
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;draft: true
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;author: &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;strawberry oolong tea&amp;#34;&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;description: &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;How to create hugo blog&amp;#34;&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;categories: &lt;span style=&#34;color:#f92672&#34;&gt;[&lt;/span&gt;TIL&lt;span style=&#34;color:#f92672&#34;&gt;]&lt;/span&gt;
@@ -88,8 +87,8 @@ title = &amp;#39;My New Hugo Site&amp;#39;
 console.log(&amp;#34;Hello world&amp;#34;);
 &lt;/code&gt;&lt;/pre&gt;&lt;p&gt;&lt;strong&gt;hello&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;&lt;code&gt;hello&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;&lt;!-- raw HTML omitted --&gt;hello&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;
-&lt;p&gt;&lt;!-- raw HTML omitted --&gt;salamanders&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;
+&lt;p&gt;&lt;mark&gt;hello&lt;/mark&gt;&lt;/p&gt;
+&lt;p&gt;&lt;mark&gt;salamanders&lt;/mark&gt;&lt;/p&gt;
 &lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;&lt;/code&gt;&lt;/pre&gt;</description>
     </item>
     
