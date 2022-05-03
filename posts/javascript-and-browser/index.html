@@ -5,7 +5,7 @@
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 	
-	<title>strawberry 烏龍茶  | Projects</title>
+	<title>strawberry 烏龍茶  | Javascript And Browser</title>
 	<meta name="viewport" content="width=device-width,minimum-scale=1">
 	<meta name="generator" content="Hugo 0.98.0" />
 	
@@ -141,17 +141,56 @@ onload='renderMathInElement(document.body);'></script>
 		<a href="https://strawberryoolongtea.github.io/" title="strawberry 烏龍茶" class="heading font-cursive icon">strawberry 烏龍茶</a>
 	</h2>
 </div>
-<h1 class="pt-2">Projects</h1>
+<h1 class="pt-2">Javascript And Browser</h1>
 
 <div class="flex flex-wrap justify-end pt-2 "><div class="md:flex-grow-0 font-light">
 	
-
+	
+	
+	
+	<a class="post-taxonomy-category text-medium-red-violet-600 hover:text-medium-red-violet-400"
+		href='/categories/programming'>Programming</a>
+	
+	
 	
 
+	
+	&nbsp;&nbsp;
+	
+
+	
+	
+	
+	
+	<a class="post-taxonomy-tag text-eucalyptus-500"
+		href='/tags/what-i-learned'>What I Learned</a>&nbsp;&#47;
+	
+	<a class="post-taxonomy-tag text-eucalyptus-500"
+		href='/tags/javascript'>Javascript</a>
+	
+	
 	
 </div><time class="text-eucalyptus-500 md:text-right md:flex-grow font-light pl-4"
-		datetime="2022-05-02T19:16:14&#43;09:00">2022-5-2</time>
+		datetime="2022-05-01T12:52:10&#43;09:00">2022-5-1</time>
 </div>
+
+<details class="toc" open>
+<summary>
+    <hr />
+</summary>
+<div class="inline toc-content">
+    <nav id="TableOfContents">
+  <ul>
+    <li><a href="#rendering-process-of-browser">Rendering Process Of Browser</a></li>
+    <li><a href="#request--response">Request &amp; Response</a>
+      <ul>
+        <li><a href="#uri-url-urn">URI, URL, URN</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+</div>
+</details>
 
 <hr />
 
@@ -163,7 +202,33 @@ onload='renderMathInElement(document.body);'></script>
 
 <article>
 	<section class="mx-auto content">
-		<div class="c-rich-text"><h2 id="debate-ducks">DEBATE DUCKS</h2>
+		<div class="c-rich-text"><h2 id="rendering-process-of-browser">Rendering Process Of Browser</h2>
+<p>브라우저는 다음과 같은 과정을 통해 렌더링<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup>을 수행합니다.</p>
+<ul>
+<li>브라우저는 렌더링에 필요한 리소스(HTML, CSS, 자바스크립트)를 서버에 요청하고 응답을 받습니다.</li>
+<li>브라우저의 렌더링 엔진은 응답받은 HTML과 CSS를 파싱<sup id="fnref:2"><a href="#fn:2" class="footnote-ref" role="doc-noteref">2</a></sup>하여 DOM과 CSSOM을 생성합니다.</li>
+<li>DOM과 CSSOM을 결합하여 렌더 트리를 생성합니다.</li>
+<li>브라우저의 자바스크립트 엔진은 자바스크립트를 파싱하여 AST를 생성하고 바이트코드로 실행합니다.</li>
+<li>이때 자바스크립트는 DOM API를 통해 DOM이나 CSSOM을 변경할 수 있습니다.</li>
+<li>변경된 DOM과 CSSOM은 다시 렌더 트리로 결합됩니다.</li>
+<li>생성된 렌더 트리를 기반으로 레이아웃을 계산하고 브라우저 화면에 HTML 요소를 페인팅합니다.</li>
+</ul>
+<h2 id="request--response">Request &amp; Response</h2>
+<p>서버에 리소스를 요청하기 위해 브라우저는 주소창을 제공합니다. 브라우저의 주소창에 URL을 입력하면 URL의 호스트 이름이 DNS를 통해 IP 주소로 변환되고 이 IP 주소를 갖는 서버에게 요청을 전송합니다.</p>
+<h3 id="uri-url-urn">URI, URL, URN</h3>
+<p>URL<sup>Uniform Resource Locator</sup>은 서버가 제공되는 환경에 존재하는 파일의 위치를 말합니다.</p>
+<p><code>https://www.example.com</code></p>
+<div class="footnotes" role="doc-endnotes">
+<hr>
+<ol>
+<li id="fn:1">
+<p>렌더링은 HTML, CSS, 자바스크립트로 작성된 문서를 파싱하여 브라우저에 시각적으로 출력하는 것을 말합니다.&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:2">
+<p>파싱은 프로그래밍 언어로 작성된 텍스트 문서를 해석하고 실행하기 위해 텍스트 문서의 문자열을 토큰으로 분해하고 토큰에 문법적 의미와 구조를 반영하여 트리 구조의 자료구조인 파스 트리를 생성하는 일련의 과정을 말합니다. 여기서 토큰은 문법적으로 더는 나눌 수 없는 코드의 기본 요소를 의미합니다. 일반적으로 파싱이 완료된 후에 파스 트리를 기반으로 중간 언어인 <a href="https://ko.wikipedia.org/wiki/%EB%B0%94%EC%9D%B4%ED%8A%B8%EC%BD%94%EB%93%9C">바이트코드</a>를 생성하고 실행합니다.&#160;<a href="#fnref:2" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+</ol>
+</div>
 </div>
 	</section>
 
@@ -187,14 +252,14 @@ onload='renderMathInElement(document.body);'></script>
 	</li>
 	
 	<li class="px-1 md:px-0">
-		<a href="/projects/" title="Projects page" 
-			class="font-medium text-medium-red-violet-600 hover:text-medium-red-violet-400" >
+		<a href="/projects/" title="Projects page" >
 			Projects
 		</a>
 	</li>
 	
 	<li class="px-1 md:px-0">
-		<a href="/posts/" title="Posts page" >
+		<a href="/posts/" title="Posts page" 
+			class="font-medium text-medium-red-violet-600 hover:text-medium-red-violet-400" >
 			Posts
 		</a>
 	</li>
@@ -237,7 +302,7 @@ onload='renderMathInElement(document.body);'></script>
 	<div class="text-sm text-gray-500 leading-tight a-gray">
 		
 		<br />
-		Built with Hugo and theme <a href="https://github.com/heyeshuang/hugo-theme-tokiwa">Tokiwa</a>. 2 words in this page.
+		Built with Hugo and theme <a href="https://github.com/heyeshuang/hugo-theme-tokiwa">Tokiwa</a>. 180 words in this page.
 	</div>
 </div>
 
@@ -248,14 +313,21 @@ onload='renderMathInElement(document.body);'></script>
 <hr class="double-line" />
 <div class="flex flex-wrap justify-between pb-2 leading-loose font-serif">
     
-    <a class="flex-grow-0" href="/posts/html-cheat-sheet/">
+    <a class="flex-grow-0" href="/about/">
         <svg class="fill-current inline-block h-4 w-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24"
             height="24">
             <path fill="none" d="M0 0h24v24H0z" />
             <path d="M7.828 11H20v2H7.828l5.364 5.364-1.414 1.414L4 12l7.778-7.778 1.414 1.414z" /></svg>
-        HTML Canvas
+        About me
     </a>
     
+    
+    <a class="flex-grow-0" href="/posts/html-cheat-sheet/">
+        HTML Canvas
+        <svg class="fill-current inline-block h-4 w-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24"
+            height="24">
+            <path fill="none" d="M0 0h24v24H0z" />
+            <path d="M16.172 11l-5.364-5.364 1.414-1.414L20 12l-7.778 7.778-1.414-1.414L16.172 13H4v-2z" /></svg></a>
     
 </div>
 <div >
