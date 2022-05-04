@@ -23,7 +23,7 @@
 &lt;li&gt;브라우저는 렌더링에 필요한 리소스(HTML, CSS, 자바스크립트)를 서버에 요청하고 응답을 받습니다.&lt;/li&gt;
 &lt;li&gt;브라우저의 렌더링 엔진은 응답받은 HTML과 CSS를 파싱&lt;sup id=&#34;fnref:2&#34;&gt;&lt;a href=&#34;#fn:2&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;2&lt;/a&gt;&lt;/sup&gt;하여 DOM과 CSSOM을 생성합니다.&lt;/li&gt;
 &lt;li&gt;DOM과 CSSOM을 결합하여 렌더 트리를 생성합니다.&lt;/li&gt;
-&lt;li&gt;브라우저의 자바스크립트 엔진은 자바스크립트를 파싱하여 AST를 생성하고 바이트코드로 실행합니다.&lt;/li&gt;
+&lt;li&gt;브라우저의 자바스크립트 엔진은 자바스크립트를 파싱하여 &lt;a href=&#34;https://yceffort.kr/2021/05/ast-for-javascript&#34;&gt;AST&lt;/a&gt;를 생성하고 바이트코드로 실행합니다.&lt;/li&gt;
 &lt;li&gt;이때 자바스크립트는 DOM API를 통해 DOM이나 CSSOM을 변경할 수 있습니다.&lt;/li&gt;
 &lt;li&gt;변경된 DOM과 CSSOM은 다시 렌더 트리로 결합됩니다.&lt;/li&gt;
 &lt;li&gt;생성된 렌더 트리를 기반으로 레이아웃을 계산하고 브라우저 화면에 HTML 요소를 페인팅합니다.&lt;/li&gt;
