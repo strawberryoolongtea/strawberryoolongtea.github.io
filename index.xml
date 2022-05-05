@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>strawberry 烏龍茶</title>
+    <title>딸기우롱차</title>
     <link>https://strawberryoolongtea.github.io/</link>
-    <description>Recent content on strawberry 烏龍茶</description>
+    <description>Recent content on 딸기우롱차</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 04 May 2022 15:24:40 +0900</lastBuildDate>
@@ -12,7 +12,7 @@
     
     
     <item>
-      <title>CSS Flex System</title>
+      <title>CSS 플렉스</title>
       <link>https://strawberryoolongtea.github.io/posts/css-flex-system/</link>
       <pubDate>Wed, 04 May 2022 15:24:40 +0900</pubDate>
       
