@@ -1,58 +1,58 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tags on 딸기우롱차</title>
-    <link>https://strawberryoolongtea.github.io/tags/</link>
-    <description>Recent content in Tags on 딸기우롱차</description>
+    <title>Tags on strawberry</title>
+    <link>https://strawberryoolongtea.github.io/about/tags/</link>
+    <description>Recent content in Tags on strawberry</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 02 May 2022 11:09:24 +0900</lastBuildDate>
     
-	<atom:link href="https://strawberryoolongtea.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://strawberryoolongtea.github.io/about/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>HTML</title>
-      <link>https://strawberryoolongtea.github.io/tags/html/</link>
+      <link>https://strawberryoolongtea.github.io/about/tags/html/</link>
       <pubDate>Mon, 02 May 2022 11:09:24 +0900</pubDate>
       
-      <guid>https://strawberryoolongtea.github.io/tags/html/</guid>
+      <guid>https://strawberryoolongtea.github.io/about/tags/html/</guid>
       <description></description>
     </item>
     
     <item>
       <title>What I Learned</title>
-      <link>https://strawberryoolongtea.github.io/tags/what-i-learned/</link>
+      <link>https://strawberryoolongtea.github.io/about/tags/what-i-learned/</link>
       <pubDate>Mon, 02 May 2022 11:09:24 +0900</pubDate>
       
-      <guid>https://strawberryoolongtea.github.io/tags/what-i-learned/</guid>
+      <guid>https://strawberryoolongtea.github.io/about/tags/what-i-learned/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Javascript</title>
-      <link>https://strawberryoolongtea.github.io/tags/javascript/</link>
+      <link>https://strawberryoolongtea.github.io/about/tags/javascript/</link>
       <pubDate>Sun, 01 May 2022 12:52:10 +0900</pubDate>
       
-      <guid>https://strawberryoolongtea.github.io/tags/javascript/</guid>
+      <guid>https://strawberryoolongtea.github.io/about/tags/javascript/</guid>
       <description></description>
     </item>
     
     <item>
       <title>SSG</title>
-      <link>https://strawberryoolongtea.github.io/tags/ssg/</link>
+      <link>https://strawberryoolongtea.github.io/about/tags/ssg/</link>
       <pubDate>Sat, 30 Apr 2022 23:14:55 +0900</pubDate>
       
-      <guid>https://strawberryoolongtea.github.io/tags/ssg/</guid>
+      <guid>https://strawberryoolongtea.github.io/about/tags/ssg/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Today I Learned</title>
-      <link>https://strawberryoolongtea.github.io/tags/today-i-learned/</link>
+      <link>https://strawberryoolongtea.github.io/about/tags/today-i-learned/</link>
       <pubDate>Sat, 30 Apr 2022 23:14:55 +0900</pubDate>
       
-      <guid>https://strawberryoolongtea.github.io/tags/today-i-learned/</guid>
+      <guid>https://strawberryoolongtea.github.io/about/tags/today-i-learned/</guid>
       <description></description>
     </item>
     

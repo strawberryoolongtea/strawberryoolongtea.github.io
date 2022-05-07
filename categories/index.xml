@@ -1,31 +1,31 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Categories on 딸기우롱차</title>
-    <link>https://strawberryoolongtea.github.io/categories/</link>
-    <description>Recent content in Categories on 딸기우롱차</description>
+    <title>Categories on strawberry</title>
+    <link>https://strawberryoolongtea.github.io/about/categories/</link>
+    <description>Recent content in Categories on strawberry</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 02 May 2022 11:09:24 +0900</lastBuildDate>
     
-	<atom:link href="https://strawberryoolongtea.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://strawberryoolongtea.github.io/about/categories/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Programming</title>
-      <link>https://strawberryoolongtea.github.io/categories/programming/</link>
+      <link>https://strawberryoolongtea.github.io/about/categories/programming/</link>
       <pubDate>Mon, 02 May 2022 11:09:24 +0900</pubDate>
       
-      <guid>https://strawberryoolongtea.github.io/categories/programming/</guid>
+      <guid>https://strawberryoolongtea.github.io/about/categories/programming/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Guide</title>
-      <link>https://strawberryoolongtea.github.io/categories/guide/</link>
+      <link>https://strawberryoolongtea.github.io/about/categories/guide/</link>
       <pubDate>Sat, 30 Apr 2022 23:14:55 +0900</pubDate>
       
-      <guid>https://strawberryoolongtea.github.io/categories/guide/</guid>
+      <guid>https://strawberryoolongtea.github.io/about/categories/guide/</guid>
       <description></description>
     </item>
     
