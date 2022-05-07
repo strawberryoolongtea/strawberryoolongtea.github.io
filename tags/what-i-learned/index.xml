@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>What I Learned on strawberry</title>
-    <link>https://strawberryoolongtea.github.io/about/tags/what-i-learned/</link>
+    <link>https://strawberryoolongtea.github.io/tags/what-i-learned/</link>
     <description>Recent content in What I Learned on strawberry</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 02 May 2022 11:09:24 +0900</lastBuildDate>
     
-	<atom:link href="https://strawberryoolongtea.github.io/about/tags/what-i-learned/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://strawberryoolongtea.github.io/tags/what-i-learned/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>HTML Canvas</title>
-      <link>https://strawberryoolongtea.github.io/about/posts/html-cheat-sheet/</link>
+      <link>https://strawberryoolongtea.github.io/posts/html-cheat-sheet/</link>
       <pubDate>Mon, 02 May 2022 11:09:24 +0900</pubDate>
       
-      <guid>https://strawberryoolongtea.github.io/about/posts/html-cheat-sheet/</guid>
+      <guid>https://strawberryoolongtea.github.io/posts/html-cheat-sheet/</guid>
       <description>&lt;h2 id=&#34;html5-canvas&#34;&gt;HTML5 Canvas&lt;/h2&gt;
 &lt;h3 id=&#34;canvas-api&#34;&gt;Canvas API&lt;/h3&gt;
 &lt;p&gt;Canvas API는 자바스크립트와 &lt;canvas&gt; 엘리먼트를 이용해 애니메이션, 게임 그래픽, 데이터 시각화, 사진 조작 및 실시간 비디오 처리와 같은 그래픽을 그리기 위완 수단을 제공한다.&lt;/p&gt;
@@ -25,10 +25,10 @@
     
     <item>
       <title>Javascript And Browser</title>
-      <link>https://strawberryoolongtea.github.io/about/posts/javascript-and-browser/</link>
+      <link>https://strawberryoolongtea.github.io/posts/javascript-and-browser/</link>
       <pubDate>Sun, 01 May 2022 12:52:10 +0900</pubDate>
       
-      <guid>https://strawberryoolongtea.github.io/about/posts/javascript-and-browser/</guid>
+      <guid>https://strawberryoolongtea.github.io/posts/javascript-and-browser/</guid>
       <description>&lt;h2 id=&#34;rendering-process-of-browser&#34;&gt;Rendering Process Of Browser&lt;/h2&gt;
 &lt;p&gt;브라우저는 다음과 같은 과정을 통해 렌더링&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;을 수행합니다.&lt;/p&gt;
 &lt;ul&gt;

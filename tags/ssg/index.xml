@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>SSG on strawberry</title>
-    <link>https://strawberryoolongtea.github.io/about/tags/ssg/</link>
+    <link>https://strawberryoolongtea.github.io/tags/ssg/</link>
     <description>Recent content in SSG on strawberry</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 30 Apr 2022 23:14:55 +0900</lastBuildDate>
     
-	<atom:link href="https://strawberryoolongtea.github.io/about/tags/ssg/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://strawberryoolongtea.github.io/tags/ssg/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Hugo Post Guide</title>
-      <link>https://strawberryoolongtea.github.io/about/posts/post-guide/</link>
+      <link>https://strawberryoolongtea.github.io/posts/post-guide/</link>
       <pubDate>Sat, 30 Apr 2022 23:14:55 +0900</pubDate>
       
-      <guid>https://strawberryoolongtea.github.io/about/posts/post-guide/</guid>
+      <guid>https://strawberryoolongtea.github.io/posts/post-guide/</guid>
       <description>&lt;h2 id=&#34;start-hugo-blog&#34;&gt;Start Hugo Blog&lt;/h2&gt;
 &lt;p&gt;휴고 블로그를 만드는 방법을 안내합니다.
 휴고 프로젝트를 생성하는 방법부터 콘텐츠는 어떻게 추가하는지 커스터마이징은 어떻게 하는지 이야기합니다.&lt;/p&gt;
