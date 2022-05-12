@@ -1,15 +1,52 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Javascript on strawberry</title>
+    <title>Javascript on 🍓 Oolong Tea</title>
     <link>https://strawberryoolongtea.github.io/tags/javascript/</link>
-    <description>Recent content in Javascript on strawberry</description>
+    <description>Recent content in Javascript on 🍓 Oolong Tea</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 01 May 2022 12:52:10 +0900</lastBuildDate>
+    <lastBuildDate>Thu, 12 May 2022 16:36:24 +0900</lastBuildDate>
     
 	<atom:link href="https://strawberryoolongtea.github.io/tags/javascript/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Javascript Variable</title>
+      <link>https://strawberryoolongtea.github.io/posts/javascript-variable/</link>
+      <pubDate>Thu, 12 May 2022 16:36:24 +0900</pubDate>
+      
+      <guid>https://strawberryoolongtea.github.io/posts/javascript-variable/</guid>
+      <description>&lt;h2 id=&#34;why-do-we-needs-variables&#34;&gt;Why do we needs variables&lt;/h2&gt;
+&lt;p&gt;데이터를 사용하기 위해서는 먼저 데이터를 기억해야 할 것입니다. 컴퓨터는 메모리에 데이터를 저장합니다. 메모리는 메모리 셀의 집합체를 말하며 각 메모리 셀은 고유한 주소를 가집니다. 메모리 주소는 데이터를 저장한 공간의 위치를 나타내게 됩니다. 저장된 데이터를 다시 사용하고자 할 때 메모리 주소로 직접 접근하게 되면 치명적인 오류&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;가 발생할 수 있기 때문에 개발자의 직접적인 메모리 제어는 허용되지 않습니다. 이때 변수를 활용해 메모리 주소에 접근할 수 있습니다. 변수는 &lt;strong&gt;데이터를 저장하기 위해 확보한 메모리 공간 자체 또는 그 공간을 식별하기 위한 이름&lt;/strong&gt;을 말합니다.&lt;/p&gt;
+&lt;h2 id=&#34;identifier&#34;&gt;Identifier&lt;/h2&gt;
+&lt;p&gt;어떤 값을 구별해서 식별할 수 있는 고유한 이름을 식별자라고 하며 변수 또한 식별자입니다. &lt;strong&gt;식별자는 값이 아닌 메모리 주소를 기억하고 있습니다.&lt;/strong&gt; 식별자를 통해 메모리 주소에 접근하고 이 메모리 주소에 저장된 데이터를 사용할 수 있게 됩니다. 식별자는 어떤 걸 가리키는 지 명확할수록 좋습니다. 때문에 변수, 함수, 클래스 등의 식별자 이름을 정할 때에는 사람(개발자)이 한번에 이해하기 쉽도록 이름 짓는 것이 중요합니다.&lt;/p&gt;
+&lt;h2 id=&#34;declaration&#34;&gt;Declaration&lt;/h2&gt;
+&lt;p&gt;변수를 사용하기 위해서는 선언을 통해 변수를 생성해야 합니다. &lt;code&gt;var&lt;/code&gt;, &lt;code&gt;let&lt;/code&gt;, &lt;code&gt;const&lt;/code&gt;와 같은 키워드로 변수를 선언하면 자바스크립트 엔진이 변수의 존재를 확인하고 값을 저장하기 위한 메모리 공간을 확보하고 변수 이름과 메모리 주소를 연결해 값을 저장하기 위한 준비를 하게 됩니다.&lt;/p&gt;
+&lt;h3 id=&#34;var&#34;&gt;var&lt;/h3&gt;
+&lt;p&gt;&lt;code&gt;var&lt;/code&gt; 키워드는 함수 레벨 스코프를 가집니다. 변수를 선언함과 동시에 &lt;code&gt;undefined&lt;/code&gt;를 할당해 초기화합니다.&lt;/p&gt;
+&lt;p&gt;자바스크립트 엔진은 변수 선언을 다음과 같은 2단계에 거쳐 수행합니다.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;선언 단계: 변수 이름을 등록해서 자바스크립트 엔진에 변수의 존재를 알립니다.&lt;/li&gt;
+&lt;li&gt;초기화 단계: 값을 저장하기 위해 메모리 공간을 확보하고 암묵적으로 undefined를 할당해 초기화합니다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;&lt;code&gt;var&lt;/code&gt; 키워드를 사용한 변수 선언은 선언 단계와 초기화 단계를 동시에 진행하게 됩니다.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;초기화&lt;sup&gt;Initialization&lt;/sup&gt;란 변수가 선언되고 최초의 값을 할당하는 것을 말합니다. 메모리 공간은 임의로 사용되기 때문에 초기화를 거치지 않으면 이전에 사용한 쓰레기 값&lt;sup&gt;garbage value&lt;/sup&gt;이 들어있을 수 있습니다. 때문에 undefined로 암묵적으로 초기화를 진행하면 garbage value를 사용할 위험으로부터 안전합니다.&lt;/p&gt;
+&lt;p&gt;선언하지 않은 식별자에 접근하면 &lt;a href=&#34;https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/ReferenceError&#34;&gt;&lt;strong&gt;ReferenceError&lt;/strong&gt;&lt;/a&gt;가 발생합니다.&lt;/p&gt;
+&lt;h2 id=&#34;hoisting&#34;&gt;Hoisting&lt;/h2&gt;
+&lt;h2 id=&#34;assignment&#34;&gt;Assignment&lt;/h2&gt;
+&lt;h2 id=&#34;allocation&#34;&gt;Allocation&lt;/h2&gt;
+&lt;h2 id=&#34;naming-conventions&#34;&gt;Naming Conventions&lt;/h2&gt;
+&lt;div class=&#34;footnotes&#34; role=&#34;doc-endnotes&#34;&gt;
+&lt;hr&gt;
+&lt;ol&gt;
+&lt;li id=&#34;fn:1&#34;&gt;
+&lt;p&gt;어떤 치명적인 결과가 생기는 걸까&amp;hellip;&amp;#160;&lt;a href=&#34;#fnref:1&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+</description>
+    </item>
     
     <item>
       <title>Javascript And Browser</title>
@@ -32,7 +69,7 @@
 &lt;p&gt;서버에 리소스를 요청하기 위해 브라우저는 주소창을 제공합니다. 브라우저의 주소창에 URL을 입력하면 URL의 호스트 이름이 DNS를 통해 IP 주소로 변환되고 이 IP 주소를 갖는 서버에게 요청을 전송합니다.&lt;/p&gt;
 &lt;h3 id=&#34;uri-url-urn&#34;&gt;URI, URL, URN&lt;/h3&gt;
 &lt;p&gt;URL&lt;sup&gt;Uniform Resource Locator&lt;/sup&gt;은 서버가 제공되는 환경에 존재하는 파일의 위치를 말합니다.&lt;/p&gt;
-&lt;p&gt;&lt;code&gt;https://www.example.com&lt;/code&gt;&lt;/p&gt;
+&lt;!-- `https://www.example.com` --&gt;
 &lt;div class=&#34;footnotes&#34; role=&#34;doc-endnotes&#34;&gt;
 &lt;hr&gt;
 &lt;ol&gt;

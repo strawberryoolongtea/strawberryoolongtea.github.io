@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Programming on strawberry</title>
+    <title>Programming on 🍓 Oolong Tea</title>
     <link>https://strawberryoolongtea.github.io/categories/programming/</link>
-    <description>Recent content in Programming on strawberry</description>
+    <description>Recent content in Programming on 🍓 Oolong Tea</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 02 May 2022 11:09:24 +0900</lastBuildDate>
@@ -20,42 +20,6 @@
       <description>&lt;h2 id=&#34;html5-canvas&#34;&gt;HTML5 Canvas&lt;/h2&gt;
 &lt;h3 id=&#34;canvas-api&#34;&gt;Canvas API&lt;/h3&gt;
 &lt;p&gt;Canvas API는 자바스크립트와 &lt;canvas&gt; 엘리먼트를 이용해 애니메이션, 게임 그래픽, 데이터 시각화, 사진 조작 및 실시간 비디오 처리와 같은 그래픽을 그리기 위완 수단을 제공한다.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Javascript And Browser</title>
-      <link>https://strawberryoolongtea.github.io/posts/javascript-and-browser/</link>
-      <pubDate>Sun, 01 May 2022 12:52:10 +0900</pubDate>
-      
-      <guid>https://strawberryoolongtea.github.io/posts/javascript-and-browser/</guid>
-      <description>&lt;h2 id=&#34;rendering-process-of-browser&#34;&gt;Rendering Process Of Browser&lt;/h2&gt;
-&lt;p&gt;브라우저는 다음과 같은 과정을 통해 렌더링&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;을 수행합니다.&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;브라우저는 렌더링에 필요한 리소스(HTML, CSS, 자바스크립트)를 서버에 요청하고 응답을 받습니다.&lt;/li&gt;
-&lt;li&gt;브라우저의 렌더링 엔진은 응답받은 HTML과 CSS를 파싱&lt;sup id=&#34;fnref:2&#34;&gt;&lt;a href=&#34;#fn:2&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;2&lt;/a&gt;&lt;/sup&gt;하여 DOM과 CSSOM을 생성합니다.&lt;/li&gt;
-&lt;li&gt;DOM과 CSSOM을 결합하여 렌더 트리를 생성합니다.&lt;/li&gt;
-&lt;li&gt;브라우저의 자바스크립트 엔진은 자바스크립트를 파싱하여 &lt;a href=&#34;https://yceffort.kr/2021/05/ast-for-javascript&#34;&gt;AST&lt;/a&gt;를 생성하고 바이트코드로 실행합니다.&lt;/li&gt;
-&lt;li&gt;이때 자바스크립트는 DOM API를 통해 DOM이나 CSSOM을 변경할 수 있습니다.&lt;/li&gt;
-&lt;li&gt;변경된 DOM과 CSSOM은 다시 렌더 트리로 결합됩니다.&lt;/li&gt;
-&lt;li&gt;생성된 렌더 트리를 기반으로 레이아웃을 계산하고 브라우저 화면에 HTML 요소를 페인팅합니다.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;request--response&#34;&gt;Request &amp;amp; Response&lt;/h2&gt;
-&lt;p&gt;서버에 리소스를 요청하기 위해 브라우저는 주소창을 제공합니다. 브라우저의 주소창에 URL을 입력하면 URL의 호스트 이름이 DNS를 통해 IP 주소로 변환되고 이 IP 주소를 갖는 서버에게 요청을 전송합니다.&lt;/p&gt;
-&lt;h3 id=&#34;uri-url-urn&#34;&gt;URI, URL, URN&lt;/h3&gt;
-&lt;p&gt;URL&lt;sup&gt;Uniform Resource Locator&lt;/sup&gt;은 서버가 제공되는 환경에 존재하는 파일의 위치를 말합니다.&lt;/p&gt;
-&lt;p&gt;&lt;code&gt;https://www.example.com&lt;/code&gt;&lt;/p&gt;
-&lt;div class=&#34;footnotes&#34; role=&#34;doc-endnotes&#34;&gt;
-&lt;hr&gt;
-&lt;ol&gt;
-&lt;li id=&#34;fn:1&#34;&gt;
-&lt;p&gt;렌더링은 HTML, CSS, 자바스크립트로 작성된 문서를 파싱하여 브라우저에 시각적으로 출력하는 것을 말합니다.&amp;#160;&lt;a href=&#34;#fnref:1&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li id=&#34;fn:2&#34;&gt;
-&lt;p&gt;파싱은 프로그래밍 언어로 작성된 텍스트 문서를 해석하고 실행하기 위해 텍스트 문서의 문자열을 토큰으로 분해하고 토큰에 문법적 의미와 구조를 반영하여 트리 구조의 자료구조인 파스 트리를 생성하는 일련의 과정을 말합니다. 여기서 토큰은 문법적으로 더는 나눌 수 없는 코드의 기본 요소를 의미합니다. 일반적으로 파싱이 완료된 후에 파스 트리를 기반으로 중간 언어인 &lt;a href=&#34;https://ko.wikipedia.org/wiki/%EB%B0%94%EC%9D%B4%ED%8A%B8%EC%BD%94%EB%93%9C&#34;&gt;바이트코드&lt;/a&gt;를 생성하고 실행합니다.&amp;#160;&lt;a href=&#34;#fnref:2&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ol&gt;
-&lt;/div&gt;
 </description>
     </item>
     

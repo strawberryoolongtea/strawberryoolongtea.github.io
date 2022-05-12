@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Today I Learned on strawberry</title>
+    <title>Today I Learned on 🍓 Oolong Tea</title>
     <link>https://strawberryoolongtea.github.io/tags/today-i-learned/</link>
-    <description>Recent content in Today I Learned on strawberry</description>
+    <description>Recent content in Today I Learned on 🍓 Oolong Tea</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 30 Apr 2022 23:14:55 +0900</lastBuildDate>
@@ -20,11 +20,11 @@
       <description>&lt;h2 id=&#34;start-hugo-blog&#34;&gt;Start Hugo Blog&lt;/h2&gt;
 &lt;p&gt;휴고 블로그를 만드는 방법을 안내합니다.
 휴고 프로젝트를 생성하는 방법부터 콘텐츠는 어떻게 추가하는지 커스터마이징은 어떻게 하는지 이야기합니다.&lt;/p&gt;
-&lt;p&gt;자세한 사항은 &lt;a href=&#34;https://gohugo.io/getting-started/quick-start/&#34;&gt;Hugo Quick Start&lt;/a&gt; 및 &lt;a href=&#34;https://gohugo.io/documentation/&#34;&gt;Hugo Documentation&lt;/a&gt;를 확인하세요.&lt;/p&gt;
-&lt;p&gt;아래부터 이어지는 방법론은 Mac 환경 및 &lt;a href=&#34;https://github.com/heyeshuang/hugo-theme-tokiwa&#34;&gt;Tokiwa&lt;/a&gt; 테마가 적용된 블로그를 기준으로 작성되었습니다. 윈도우 환경이나 다른 테마의 사용 방법과는 일부 차이가 있을 수 있습니다.&lt;/p&gt;
+&lt;p&gt;자세한 사항은 &lt;a href=&#34;https://gohugo.io/getting-started/quick-start/&#34;&gt;&lt;strong&gt;Hugo Quick Start&lt;/strong&gt;&lt;/a&gt; 및 &lt;a href=&#34;https://gohugo.io/documentation/&#34;&gt;&lt;strong&gt;Hugo Documentation&lt;/strong&gt;&lt;/a&gt;를 확인하세요.&lt;/p&gt;
+&lt;p&gt;아래부터 이어지는 방법론은 Mac 환경 및 &lt;a href=&#34;https://github.com/heyeshuang/hugo-theme-tokiwa&#34;&gt;&lt;strong&gt;Tokiwa&lt;/strong&gt;&lt;/a&gt; 테마가 적용된 블로그를 기준으로 작성되었습니다. 윈도우 환경이나 다른 테마의 사용 방법과는 일부 차이가 있을 수 있습니다.&lt;/p&gt;
 &lt;h3 id=&#34;install-hugo&#34;&gt;Install Hugo&lt;/h3&gt;
 &lt;p&gt;패키지 관리 시스템인 Homebrew를 통해 Hugo 패키지를 설치합니다.&lt;/p&gt;
-&lt;p&gt;Homebrew 외에 다양한 방법들이 &lt;a href=&#34;https://gohugo.io/getting-started/installing/#quick-install&#34;&gt;여기&lt;/a&gt;에 있습니다.&lt;/p&gt;
+&lt;p&gt;Homebrew 외에 다양한 방법들이 &lt;a href=&#34;https://gohugo.io/getting-started/installing/#quick-install&#34;&gt;&lt;strong&gt;여기&lt;/strong&gt;&lt;/a&gt;에 있습니다.&lt;/p&gt;
 &lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;brew install hugo
 &lt;/code&gt;&lt;/pre&gt;&lt;h3 id=&#34;create-new-project&#34;&gt;Create New Project&lt;/h3&gt;
 &lt;p&gt;새로운 휴고 프로젝트를 생성합니다. 여기서는 &lt;code&gt;test-blog&lt;/code&gt; 라는 프로젝트를 만들겠습니다.&lt;/p&gt;
@@ -45,7 +45,7 @@
 &lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;cd {project name}
 git init
 git submodule add {git repository} {path}
-&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;휴고 블로그 테마는 &lt;a href=&#34;https://themes.gohugo.io/&#34;&gt;&lt;strong&gt;themes.gohugo.io&lt;/strong&gt;&lt;/a&gt;에서 확인할 수 있습니다.&lt;/p&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;휴고 테마는 &lt;a href=&#34;https://themes.gohugo.io/&#34;&gt;&lt;strong&gt;themes.gohugo.io&lt;/strong&gt;&lt;/a&gt;에서 확인할 수 있습니다.&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;cd test-blog
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;git init
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;git submodule add https://github.com/heyeshuang/hugo-theme-tokiwa.git themes/hugo-theme-tokiwa
@@ -54,22 +54,45 @@ git submodule add {git repository} {path}
 	path = themes/hugo-theme-tokiwa
 	url = https://github.com/heyeshuang/hugo-theme-tokiwa.git
 &lt;/code&gt;&lt;/pre&gt;&lt;h3 id=&#34;configure-blog&#34;&gt;Configure Blog&lt;/h3&gt;
-&lt;p&gt;프로젝트의 루트에서 &lt;code&gt;config.toml&lt;/code&gt; 파일을 확인할 수 있습니다.&lt;/p&gt;
+&lt;p&gt;프로젝트의 루트에서 &lt;code&gt;config.toml&lt;/code&gt; 파일을 확인할 수 있습니다. 이 파일에서 프로젝트와 관련한 다양한 설정을 할 수 있습니다. 자세한 방법은 &lt;a href=&#34;https://gohugo.io/getting-started/configuration/&#34;&gt;&lt;strong&gt;여기&lt;/strong&gt;&lt;/a&gt;를 확인하세요.&lt;/p&gt;
 &lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;baseURL = &amp;#39;http://example.org/&amp;#39;
 languageCode = &amp;#39;en-us&amp;#39;
 title = &amp;#39;My New Hugo Site&amp;#39;
-&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;원하는 테마에 맞게 다음과 같이 설정합니다.&lt;/p&gt;
-&lt;p&gt;&lt;code&gt;baseURL&lt;/code&gt;은 루트의 경로를 나타냅니다. 블로그에서 다음과 같이 사용됩니다. &lt;a href=&#34;https://golangkorea.github.io/post/hugo-intro/content-basic/&#34;&gt;관련한 글&lt;/a&gt;을 읽어보면 도움이 될 수 있습니다.&lt;/p&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;&lt;code&gt;baseURL&lt;/code&gt;은 루트의 경로를 나타냅니다. 프로젝트에서 다음과 같이 사용됩니다. &lt;a href=&#34;https://golangkorea.github.io/post/hugo-intro/content-basic/&#34;&gt;&lt;strong&gt;관련한 글&lt;/strong&gt;&lt;/a&gt;을 읽어보면 도움이 될 수 있습니다.&lt;/p&gt;
 &lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;|-----baseURL-----|section|
 https://example.org/posts
-&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;&lt;code&gt;languageCode&lt;/code&gt;는 &lt;a href=&#34;https://gohugo.io/getting-started/configuration/#languagecode&#34;&gt;RFC 5646에 정의된 언어 태그&lt;/a&gt;로 블로그에 사용될 언어의 &lt;a href=&#34;https://github.com/gohugoio/hugo/issues/349&#34;&gt;RSS Language Code를 생성할 때 사용&lt;/a&gt;됩니다.
-RSS Language Codes는 &lt;a href=&#34;https://www.rssboard.org/rss-language-codes&#34;&gt;여기&lt;/a&gt;에서 확인할 수 있습니다.&lt;/p&gt;
-&lt;p&gt;&lt;code&gt;title&lt;/code&gt;에 원하는 블로그 제목을 설정할 수 있습니다.&lt;/p&gt;
-&lt;h2 id=&#34;create-new-post&#34;&gt;Create New Post&lt;/h2&gt;
-&lt;p&gt;루트에서&lt;/p&gt;
-&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;
-hugo new posts/javascript-cheat-sheet.md
-&lt;/code&gt;&lt;/pre&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;# default&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;&lt;code&gt;languageCode&lt;/code&gt;는 &lt;a href=&#34;https://gohugo.io/getting-started/configuration/#languagecode&#34;&gt;&lt;strong&gt;RFC 5646에 정의된 언어 태그&lt;/strong&gt;&lt;/a&gt;로 프로젝트에 사용될 언어의 &lt;a href=&#34;https://github.com/gohugoio/hugo/issues/349&#34;&gt;&lt;strong&gt;RSS Language Code를 생성할 때 사용&lt;/strong&gt;&lt;/a&gt;됩니다.
+RSS Language Codes는 &lt;a href=&#34;https://www.rssboard.org/rss-language-codes&#34;&gt;&lt;strong&gt;여기&lt;/strong&gt;&lt;/a&gt;에서 확인할 수 있습니다.&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;title&lt;/code&gt;에 원하는 프로젝트 제목을 설정할 수 있습니다.&lt;/p&gt;
+&lt;p&gt;원하는 테마에 맞게 다음과 같이 설정합니다.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;baseURL &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;http://example.org/&amp;#39;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;languageCode &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;ko&amp;#39;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;title &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;test-blog&amp;#39;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;theme &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;hugo-theme-tokiwa&amp;#39;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;create-new-post&#34;&gt;Create New Post&lt;/h2&gt;
+&lt;p&gt;프로젝트에 새로운 포스트를 생성해 보겠습니다. 터미널의 루트 경로에서 다음과 같이 입력합니다.&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;hugo new posts/myFirstPost.md
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;&lt;code&gt;content&lt;/code&gt; 폴더 하위로 다음과 같이 새로운 콘텐츠가 생성됩니다.&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;.
+└── posts
+    └── myFirstPost.md
+&lt;/code&gt;&lt;/pre&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;# My First Post Front Matter from myFirstPost.md file&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;---
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;title: &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;MyFirstPost&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;date: 2022-05-12T16:01:43+09:00
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;draft: true
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;---
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;code&gt;.md&lt;/code&gt; 파일을 생성할 때 &lt;code&gt;my-second-post.md&lt;/code&gt;로 작성하면 &lt;code&gt;-&lt;/code&gt; 기호를 기준으로 띄어쓰기가 적용된 타이틀의 &lt;a href=&#34;https://gohugo.io/content-management/front-matter&#34;&gt;&lt;strong&gt;Front Matter&lt;/strong&gt;&lt;/a&gt;가 생성됩니다.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;# My Second Post Front Matter from my-second-post.md file&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;---
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;title: &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;My Second Post&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;date: 2022-05-12T16:06:17+09:00
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;draft: true
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;---
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Front Matter 아래로 마크다운 문법을 활용해 원하는 내용으로 자유롭게 작성하세요. 문법이 헷갈린다면 &lt;a href=&#34;https://www.markdownguide.org/cheat-sheet/&#34;&gt;&lt;strong&gt;Cheat Sheet&lt;/strong&gt;&lt;/a&gt;을 확인하세요.&lt;/p&gt;
+&lt;h2 id=&#34;start-hugo-server&#34;&gt;Start Hugo Server&lt;/h2&gt;
+&lt;h2 id=&#34;my-boilerplate&#34;&gt;My Boilerplate&lt;/h2&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;# default&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;---
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;title: &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Javascript Cheat Sheet&amp;#34;&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;date: 2022-05-01T12:52:10+09:00
@@ -85,21 +108,7 @@ hugo new posts/javascript-cheat-sheet.md
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;aliases: &lt;span style=&#34;color:#f92672&#34;&gt;[&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;migrate-from-jekyl&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;]&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;toc: true
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;---
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h1 id=&#34;this-is-heading1&#34;&gt;This is heading1&lt;/h1&gt;
-&lt;h2 id=&#34;this-is-heading2&#34;&gt;This is heading2&lt;/h2&gt;
-&lt;h3 id=&#34;this-is-heading3&#34;&gt;This is heading3&lt;/h3&gt;
-&lt;p&gt;This is paragraph&lt;/p&gt;
-&lt;p&gt;자바스크립트&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;타입스크립트&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;
-console.log(&amp;#34;Hello world&amp;#34;);
-&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;&lt;strong&gt;hello&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;code&gt;hello&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;&lt;mark&gt;hello&lt;/mark&gt;&lt;/p&gt;
-&lt;p&gt;&lt;mark&gt;salamanders&lt;/mark&gt;&lt;/p&gt;
-&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;&lt;/code&gt;&lt;/pre&gt;</description>
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
     </item>
     
   </channel>

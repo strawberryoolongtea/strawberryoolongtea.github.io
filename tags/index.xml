@@ -1,15 +1,42 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tags on strawberry</title>
+    <title>Tags on 🍓 Oolong Tea</title>
     <link>https://strawberryoolongtea.github.io/tags/</link>
-    <description>Recent content in Tags on strawberry</description>
+    <description>Recent content in Tags on 🍓 Oolong Tea</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 02 May 2022 11:09:24 +0900</lastBuildDate>
+    <lastBuildDate>Thu, 12 May 2022 16:36:24 +0900</lastBuildDate>
     
 	<atom:link href="https://strawberryoolongtea.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Javascript</title>
+      <link>https://strawberryoolongtea.github.io/tags/javascript/</link>
+      <pubDate>Thu, 12 May 2022 16:36:24 +0900</pubDate>
+      
+      <guid>https://strawberryoolongtea.github.io/tags/javascript/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Javascript Deep Dive</title>
+      <link>https://strawberryoolongtea.github.io/tags/javascript-deep-dive/</link>
+      <pubDate>Thu, 12 May 2022 16:36:24 +0900</pubDate>
+      
+      <guid>https://strawberryoolongtea.github.io/tags/javascript-deep-dive/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>What I Learned</title>
+      <link>https://strawberryoolongtea.github.io/tags/what-i-learned/</link>
+      <pubDate>Thu, 12 May 2022 16:36:24 +0900</pubDate>
+      
+      <guid>https://strawberryoolongtea.github.io/tags/what-i-learned/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>HTML</title>
@@ -17,24 +44,6 @@
       <pubDate>Mon, 02 May 2022 11:09:24 +0900</pubDate>
       
       <guid>https://strawberryoolongtea.github.io/tags/html/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>What I Learned</title>
-      <link>https://strawberryoolongtea.github.io/tags/what-i-learned/</link>
-      <pubDate>Mon, 02 May 2022 11:09:24 +0900</pubDate>
-      
-      <guid>https://strawberryoolongtea.github.io/tags/what-i-learned/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Javascript</title>
-      <link>https://strawberryoolongtea.github.io/tags/javascript/</link>
-      <pubDate>Sun, 01 May 2022 12:52:10 +0900</pubDate>
-      
-      <guid>https://strawberryoolongtea.github.io/tags/javascript/</guid>
       <description></description>
     </item>
     

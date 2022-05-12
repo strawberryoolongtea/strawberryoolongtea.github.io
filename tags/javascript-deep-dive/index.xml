@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>What I Learned on 🍓 Oolong Tea</title>
-    <link>https://strawberryoolongtea.github.io/tags/what-i-learned/</link>
-    <description>Recent content in What I Learned on 🍓 Oolong Tea</description>
+    <title>Javascript Deep Dive on 🍓 Oolong Tea</title>
+    <link>https://strawberryoolongtea.github.io/tags/javascript-deep-dive/</link>
+    <description>Recent content in Javascript Deep Dive on 🍓 Oolong Tea</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 12 May 2022 16:36:24 +0900</lastBuildDate>
     
-	<atom:link href="https://strawberryoolongtea.github.io/tags/what-i-learned/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://strawberryoolongtea.github.io/tags/javascript-deep-dive/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -45,18 +45,6 @@
 &lt;/li&gt;
 &lt;/ol&gt;
 &lt;/div&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>HTML Canvas</title>
-      <link>https://strawberryoolongtea.github.io/posts/html-cheat-sheet/</link>
-      <pubDate>Mon, 02 May 2022 11:09:24 +0900</pubDate>
-      
-      <guid>https://strawberryoolongtea.github.io/posts/html-cheat-sheet/</guid>
-      <description>&lt;h2 id=&#34;html5-canvas&#34;&gt;HTML5 Canvas&lt;/h2&gt;
-&lt;h3 id=&#34;canvas-api&#34;&gt;Canvas API&lt;/h3&gt;
-&lt;p&gt;Canvas API는 자바스크립트와 &lt;canvas&gt; 엘리먼트를 이용해 애니메이션, 게임 그래픽, 데이터 시각화, 사진 조작 및 실시간 비디오 처리와 같은 그래픽을 그리기 위완 수단을 제공한다.&lt;/p&gt;
 </description>
     </item>
     
