@@ -6,10 +6,20 @@
     <description>Recent content on 🍓 Oolong Tea</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 12 May 2022 16:36:24 +0900</lastBuildDate>
+    <lastBuildDate>Fri, 13 May 2022 22:06:27 +0900</lastBuildDate>
     
 	<atom:link href="https://strawberryoolongtea.github.io/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Javascript Data Type</title>
+      <link>https://strawberryoolongtea.github.io/posts/javascript-data-type/</link>
+      <pubDate>Fri, 13 May 2022 22:06:27 +0900</pubDate>
+      
+      <guid>https://strawberryoolongtea.github.io/posts/javascript-data-type/</guid>
+      <description>&lt;h2 id=&#34;primitive-type-and-objective--reference-type&#34;&gt;Primitive Type and Objective / Reference Type&lt;/h2&gt;
+</description>
+    </item>
     
     <item>
       <title>Javascript Variable</title>
@@ -54,7 +64,7 @@
       <pubDate>Wed, 04 May 2022 15:24:40 +0900</pubDate>
       
       <guid>https://strawberryoolongtea.github.io/posts/css-flex-system/</guid>
-      <description>&lt;p&gt;CSS 플렉스 시스템은&lt;/p&gt;
+      <description>&lt;p&gt;CSS 플렉스 박스 레이아웃 모듈은&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://css-tricks.com/snippets/css/a-guide-to-flexbox/&#34;&gt;CSS Tricks Reference&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id=&#34;background&#34;&gt;Background&lt;/h2&gt;
 </description>
