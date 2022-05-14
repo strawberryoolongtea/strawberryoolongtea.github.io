@@ -6,10 +6,32 @@
     <description>Recent content in Posts on 🍓 Oolong Tea</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 13 May 2022 22:06:27 +0900</lastBuildDate>
+    <lastBuildDate>Sat, 14 May 2022 19:17:55 +0900</lastBuildDate>
     
 	<atom:link href="https://strawberryoolongtea.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Control Flow Statement</title>
+      <link>https://strawberryoolongtea.github.io/posts/control-flow-statement/</link>
+      <pubDate>Sat, 14 May 2022 19:17:55 +0900</pubDate>
+      
+      <guid>https://strawberryoolongtea.github.io/posts/control-flow-statement/</guid>
+      <description>&lt;h2 id=&#34;control-flow-statement&#34;&gt;Control Flow Statement&lt;/h2&gt;
+&lt;p&gt;제어문은 조건에 따라 코드 블록을 실행하거나 반복 실행하도록 하는 등 코드의 실행 흐름을 제어하는 것을 말합니다.&lt;/p&gt;
+&lt;h2 id=&#34;block-statement&#34;&gt;Block Statement&lt;/h2&gt;
+&lt;p&gt;블록문은 말그대로 코드로 이루어진 블록을 말합니다. 0개 이상의 문을 중괄호로 묶어 표현합니다. 자바스크립트는 블록문을 하나의 실행 단위로 취급합니다. 블록문은 일반적으로 단독으로 사용하기 보다는 제어문이나 함수를 정의할 때 사용합니다.&lt;/p&gt;
+&lt;h2 id=&#34;conditional-statement&#34;&gt;Conditional Statement&lt;/h2&gt;
+&lt;p&gt;조건문은 조건식의 평가 결과에 따라 코드 블록의 실행을 결정합니다. 조건식은 참인지 거짓인지 Boolean 값으로 평가될 수 있는 표현식을 사용합니다. 자바스크립트에서는 &lt;code&gt;if...else&lt;/code&gt; 문 또는 &lt;code&gt;switch&lt;/code&gt; 문을 사용합니다.&lt;/p&gt;
+&lt;h3 id=&#34;ternary-operator&#34;&gt;Ternary Operator&lt;/h3&gt;
+&lt;p&gt;대부분의 &lt;code&gt;if...else&lt;/code&gt; 문은 삼항 조건 연산자로 바꿔 쓸 수 있습니다. 만약 조건에 따라 단순히 값을 결정하여 변수에 할당하는 경우에는 삼항 조건 연산자를 사용하는 것이 가독성이 더 좋습니다. 조건에 따라 실행해야 할 내용이 복잡하고 여러 줄의 문이 필요하다면 &lt;code&gt;if...else&lt;/code&gt; 문을 사용하는 것이 가독성이 좋습니다.&lt;/p&gt;
+&lt;h3 id=&#34;ifelse-or-switch&#34;&gt;&lt;code&gt;if...else&lt;/code&gt; or &lt;code&gt;switch&lt;/code&gt;&lt;/h3&gt;
+&lt;p&gt;논리적인 참, 거짓으로 실행할 코드 블록을 결정하는 경우 &lt;code&gt;if...else&lt;/code&gt; 문을 사용합니다. 참, 거짓보다는 다양한 상황&lt;sup&gt;case&lt;/sup&gt;에 따라 실행할 코드 블록을 결정하는 경우에는 &lt;code&gt;switch&lt;/code&gt; 문을 사용합니다.&lt;/p&gt;
+&lt;h2 id=&#34;loop-statement&#34;&gt;Loop Statement&lt;/h2&gt;
+&lt;h2 id=&#34;break&#34;&gt;Break&lt;/h2&gt;
+&lt;h2 id=&#34;continue&#34;&gt;Continue&lt;/h2&gt;
+</description>
+    </item>
     
     <item>
       <title>Javascript Data Type</title>
@@ -17,7 +39,25 @@
       <pubDate>Fri, 13 May 2022 22:06:27 +0900</pubDate>
       
       <guid>https://strawberryoolongtea.github.io/posts/javascript-data-type/</guid>
-      <description>&lt;h2 id=&#34;primitive-type-and-objective--reference-type&#34;&gt;Primitive Type and Objective / Reference Type&lt;/h2&gt;
+      <description>&lt;h2 id=&#34;primitive-type-and-objectivesupreferencesup-type&#34;&gt;Primitive Type and Objective&lt;sup&gt;Reference&lt;/sup&gt; Type&lt;/h2&gt;
+&lt;p&gt;자바스크립트는 크게 원시 타입과 객체 타입으로 분류됩니다. 원시 타입은 가장 로우 레벨에서 직접 표현되는 불변성의 데이터를 말합니다. 객체 타입은 식별자로 참조할 수 있는 메모리 상의 데이터를 말합니다.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;원시 타입&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Number&lt;/li&gt;
+&lt;li&gt;String&lt;/li&gt;
+&lt;li&gt;Boolean&lt;/li&gt;
+&lt;li&gt;Undefiend&lt;/li&gt;
+&lt;li&gt;Null&lt;/li&gt;
+&lt;li&gt;Symbol&lt;/li&gt;
+&lt;li&gt;Bigint (책에서는 다루지 않습니다. &lt;a href=&#34;https://developer.mozilla.org/ko/docs/Web/JavaScript/Data_structures#bigint_%ED%83%80%EC%9E%85&#34;&gt;&lt;strong&gt;MDN을 참고&lt;/strong&gt;&lt;/a&gt;하세요.)&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;객체 타입: 객체, 함수, 배열 등&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
 </description>
     </item>
     
@@ -78,7 +118,7 @@
       <guid>https://strawberryoolongtea.github.io/posts/html-cheat-sheet/</guid>
       <description>&lt;h2 id=&#34;html5-canvas&#34;&gt;HTML5 Canvas&lt;/h2&gt;
 &lt;h3 id=&#34;canvas-api&#34;&gt;Canvas API&lt;/h3&gt;
-&lt;p&gt;Canvas API는 자바스크립트와 &lt;canvas&gt; 엘리먼트를 이용해 애니메이션, 게임 그래픽, 데이터 시각화, 사진 조작 및 실시간 비디오 처리와 같은 그래픽을 그리기 위완 수단을 제공한다.&lt;/p&gt;
+&lt;p&gt;Canvas API는 자바스크립트와 &lt;code&gt;&amp;lt;canvas&amp;gt;&lt;/code&gt; 엘리먼트를 이용해 애니메이션, 게임 그래픽, 데이터 시각화, 사진 조작 및 실시간 비디오 처리와 같은 그래픽을 그리기 위완 수단을 제공합니다.&lt;/p&gt;
 </description>
     </item>
     

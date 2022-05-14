@@ -3,36 +3,45 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://strawberryoolongtea.github.io/</loc>
-    <lastmod>2022-05-13T22:06:27+09:00</lastmod>
+    <lastmod>2022-05-14T19:17:55+09:00</lastmod>
+  </url><url>
+    <loc>https://strawberryoolongtea.github.io/categories/books/</loc>
+    <lastmod>2022-05-14T19:17:55+09:00</lastmod>
+  </url><url>
+    <loc>https://strawberryoolongtea.github.io/categories/</loc>
+    <lastmod>2022-05-14T19:17:55+09:00</lastmod>
+  </url><url>
+    <loc>https://strawberryoolongtea.github.io/posts/control-flow-statement/</loc>
+    <lastmod>2022-05-14T19:17:55+09:00</lastmod>
+  </url><url>
+    <loc>https://strawberryoolongtea.github.io/tags/javascript/</loc>
+    <lastmod>2022-05-14T19:17:55+09:00</lastmod>
+  </url><url>
+    <loc>https://strawberryoolongtea.github.io/tags/javascript-deep-dive/</loc>
+    <lastmod>2022-05-14T19:17:55+09:00</lastmod>
+  </url><url>
+    <loc>https://strawberryoolongtea.github.io/posts/</loc>
+    <lastmod>2022-05-14T19:17:55+09:00</lastmod>
+  </url><url>
+    <loc>https://strawberryoolongtea.github.io/tags/</loc>
+    <lastmod>2022-05-14T19:17:55+09:00</lastmod>
+  </url><url>
+    <loc>https://strawberryoolongtea.github.io/tags/what-i-learned/</loc>
+    <lastmod>2022-05-14T19:17:55+09:00</lastmod>
   </url><url>
     <loc>https://strawberryoolongtea.github.io/posts/javascript-data-type/</loc>
     <lastmod>2022-05-13T22:06:27+09:00</lastmod>
   </url><url>
-    <loc>https://strawberryoolongtea.github.io/posts/</loc>
-    <lastmod>2022-05-13T22:06:27+09:00</lastmod>
-  </url><url>
-    <loc>https://strawberryoolongtea.github.io/categories/books/</loc>
-    <lastmod>2022-05-12T16:36:24+09:00</lastmod>
-  </url><url>
-    <loc>https://strawberryoolongtea.github.io/categories/</loc>
-    <lastmod>2022-05-12T16:36:24+09:00</lastmod>
-  </url><url>
-    <loc>https://strawberryoolongtea.github.io/tags/javascript/</loc>
-    <lastmod>2022-05-12T16:36:24+09:00</lastmod>
-  </url><url>
-    <loc>https://strawberryoolongtea.github.io/tags/javascript-deep-dive/</loc>
-    <lastmod>2022-05-12T16:36:24+09:00</lastmod>
-  </url><url>
     <loc>https://strawberryoolongtea.github.io/posts/javascript-variable/</loc>
     <lastmod>2022-05-12T16:36:24+09:00</lastmod>
   </url><url>
-    <loc>https://strawberryoolongtea.github.io/tags/</loc>
-    <lastmod>2022-05-12T16:36:24+09:00</lastmod>
-  </url><url>
-    <loc>https://strawberryoolongtea.github.io/tags/what-i-learned/</loc>
-    <lastmod>2022-05-12T16:36:24+09:00</lastmod>
+    <loc>https://strawberryoolongtea.github.io/tags/css/</loc>
+    <lastmod>2022-05-04T15:24:40+09:00</lastmod>
   </url><url>
     <loc>https://strawberryoolongtea.github.io/posts/css-flex-system/</loc>
+    <lastmod>2022-05-04T15:24:40+09:00</lastmod>
+  </url><url>
+    <loc>https://strawberryoolongtea.github.io/categories/programming/</loc>
     <lastmod>2022-05-04T15:24:40+09:00</lastmod>
   </url><url>
     <loc>https://strawberryoolongtea.github.io/projects/</loc>
@@ -42,9 +51,6 @@
     <lastmod>2022-05-02T11:09:24+09:00</lastmod>
   </url><url>
     <loc>https://strawberryoolongtea.github.io/posts/html-cheat-sheet/</loc>
-    <lastmod>2022-05-02T11:09:24+09:00</lastmod>
-  </url><url>
-    <loc>https://strawberryoolongtea.github.io/categories/programming/</loc>
     <lastmod>2022-05-02T11:09:24+09:00</lastmod>
   </url><url>
     <loc>https://strawberryoolongtea.github.io/posts/javascript-and-browser/</loc>
