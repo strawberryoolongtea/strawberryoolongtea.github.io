@@ -6,10 +6,21 @@
     <description>Recent content on 🍓 Oolong Tea</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 14 May 2022 19:17:55 +0900</lastBuildDate>
+    <lastBuildDate>Sat, 14 May 2022 19:56:49 +0900</lastBuildDate>
     
 	<atom:link href="https://strawberryoolongtea.github.io/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>My Altar</title>
+      <link>https://strawberryoolongtea.github.io/projects/my-altar/</link>
+      <pubDate>Sat, 14 May 2022 19:56:49 +0900</pubDate>
+      
+      <guid>https://strawberryoolongtea.github.io/projects/my-altar/</guid>
+      <description>&lt;h2 id=&#34;my-altar&#34;&gt;My Altar&lt;/h2&gt;
+&lt;p&gt;나만의 제단 만들기&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Control Flow Statement</title>
@@ -28,8 +39,11 @@
 &lt;h3 id=&#34;ifelse-or-switch&#34;&gt;&lt;code&gt;if...else&lt;/code&gt; or &lt;code&gt;switch&lt;/code&gt;&lt;/h3&gt;
 &lt;p&gt;논리적인 참, 거짓으로 실행할 코드 블록을 결정하는 경우 &lt;code&gt;if...else&lt;/code&gt; 문을 사용합니다. 참, 거짓보다는 다양한 상황&lt;sup&gt;case&lt;/sup&gt;에 따라 실행할 코드 블록을 결정하는 경우에는 &lt;code&gt;switch&lt;/code&gt; 문을 사용합니다.&lt;/p&gt;
 &lt;h2 id=&#34;loop-statement&#34;&gt;Loop Statement&lt;/h2&gt;
+&lt;p&gt;반복문은 조건식의 결과가 참일 경우에 코드 블록을 실행합니다. 이는 조건식이 거짓이 될 때까지 반복됩니다.&lt;/p&gt;
 &lt;h2 id=&#34;break&#34;&gt;Break&lt;/h2&gt;
+&lt;p&gt;&lt;code&gt;break&lt;/code&gt; 문은 코드 블록을 탈출합니다. 좀 더 정확히는 레이블 문, 반복문, &lt;code&gt;switch&lt;/code&gt; 문의 코드 블록을 탈출합니다. 이외의 경우에는 &lt;code&gt;SyntaxError&lt;/code&gt;가 발생합니다.&lt;/p&gt;
 &lt;h2 id=&#34;continue&#34;&gt;Continue&lt;/h2&gt;
+&lt;p&gt;반복문의 코드 블록 실행을 중단하고 반복문의 증감식으로 실행 흐름을 이동시킵니다.&lt;/p&gt;
 </description>
     </item>
     
@@ -111,12 +125,13 @@
     </item>
     
     <item>
-      <title>Projects</title>
-      <link>https://strawberryoolongtea.github.io/projects/</link>
+      <title>Debate Ducks</title>
+      <link>https://strawberryoolongtea.github.io/projects/projects/</link>
       <pubDate>Mon, 02 May 2022 19:16:14 +0900</pubDate>
       
-      <guid>https://strawberryoolongtea.github.io/projects/</guid>
+      <guid>https://strawberryoolongtea.github.io/projects/projects/</guid>
       <description>&lt;h2 id=&#34;debate-ducks&#34;&gt;DEBATE DUCKS&lt;/h2&gt;
+&lt;p&gt;실시간 토론 플랫폼&lt;/p&gt;
 </description>
     </item>
     

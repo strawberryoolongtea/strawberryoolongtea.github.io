@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Projects on 🍓 Oolong Tea</title>
+    <link>https://strawberryoolongtea.github.io/projects/</link>
+    <description>Recent content in Projects on 🍓 Oolong Tea</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 14 May 2022 19:56:49 +0900</lastBuildDate>
+    
+	<atom:link href="https://strawberryoolongtea.github.io/projects/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>My Altar</title>
+      <link>https://strawberryoolongtea.github.io/projects/my-altar/</link>
+      <pubDate>Sat, 14 May 2022 19:56:49 +0900</pubDate>
+      
+      <guid>https://strawberryoolongtea.github.io/projects/my-altar/</guid>
+      <description>&lt;h2 id=&#34;my-altar&#34;&gt;My Altar&lt;/h2&gt;
+&lt;p&gt;나만의 제단 만들기&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Debate Ducks</title>
+      <link>https://strawberryoolongtea.github.io/projects/projects/</link>
+      <pubDate>Mon, 02 May 2022 19:16:14 +0900</pubDate>
+      
+      <guid>https://strawberryoolongtea.github.io/projects/projects/</guid>
+      <description>&lt;h2 id=&#34;debate-ducks&#34;&gt;DEBATE DUCKS&lt;/h2&gt;
+&lt;p&gt;실시간 토론 플랫폼&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
