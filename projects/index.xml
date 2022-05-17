@@ -1,33 +1,52 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Projects on 🍓 Oolong Tea</title>
+    <title>Projects on Strawberry ウーロン茶</title>
     <link>https://strawberryoolongtea.github.io/projects/</link>
-    <description>Recent content in Projects on 🍓 Oolong Tea</description>
+    <description>Recent content in Projects on Strawberry ウーロン茶</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 14 May 2022 19:56:49 +0900</lastBuildDate>
+    <lastBuildDate>Mon, 21 Mar 2022 19:56:49 +0900</lastBuildDate>
     
 	<atom:link href="https://strawberryoolongtea.github.io/projects/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>My Altar</title>
-      <link>https://strawberryoolongtea.github.io/projects/my-altar/</link>
-      <pubDate>Sat, 14 May 2022 19:56:49 +0900</pubDate>
+      <title>Scythe / Side - Magazine Odd</title>
+      <link>https://strawberryoolongtea.github.io/projects/scythe/</link>
+      <pubDate>Mon, 21 Mar 2022 19:56:49 +0900</pubDate>
       
-      <guid>https://strawberryoolongtea.github.io/projects/my-altar/</guid>
-      <description>&lt;h2 id=&#34;my-altar&#34;&gt;My Altar&lt;/h2&gt;
+      <guid>https://strawberryoolongtea.github.io/projects/scythe/</guid>
+      <description>&lt;h2 id=&#34;the-first-edition-of-horror-magazine-odd&#34;&gt;The First Edition Of Horror Magazine Odd&lt;/h2&gt;
+&lt;p&gt;당신의 미래와 과거, 악몽, 한계, 질서, 집착, 환희로부터.&lt;/p&gt;
+&lt;p&gt;호러 프로젝트 팀 사이드는 공포라는 감정과 그 근원, 호러의 정의와 태동, 이를 향한 인간의 다양한 시선과 태도를 관찰합니다. 영화, 소설, 게임 등 다양한 매체 속 호러 콘텐츠의 존재를 추적하고 탐구하여 공포라는 정서적 반응을 의식적으로 사유하고 다원적으로 연구합니다. 단순한 지식 전달에 그치지 않고 나아가 관습을 의심하고 질문하며 뒤흔들어 새로움을 창조할 것을 목표합니다.&lt;/p&gt;
+&lt;p&gt;BE AFRAID.
+But do not worry SCYTHE by your SIDE.&lt;/p&gt;
+&lt;h2 id=&#34;team-logo&#34;&gt;Team Logo&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&#34;https://strawberryoolongtea.github.io/scythe/scythe-logo-image.jpg&#34; alt=&#34;Scythe Logo Image&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;curating-for-social-media&#34;&gt;Curating for Social Media&lt;/h2&gt;
+&lt;h3 id=&#34;1-cosmic-horror&#34;&gt;1. Cosmic Horror&lt;/h3&gt;
+&lt;p&gt;✦ &lt;a href=&#34;https://www.instagram.com/p/CdnPTz1Bv7v/&#34;&gt;instagram&lt;/a&gt;
+✦ &lt;a href=&#34;https://twitter.com/scythe_side_PRT/status/1526145665751220229/photo/1&#34;&gt;twitter&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://strawberryoolongtea.github.io/scythe/curating-01-1.jpg&#34; alt=&#34;Cosmic Horror Image&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;my-altar&#34;&gt;My Altar&lt;/h2&gt;
 &lt;p&gt;나만의 제단 만들기&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;메인에서 시작하기&lt;/li&gt;
+&lt;li&gt;제단 스타일을 설정하고 다음 단계로 넘어갑니다.&lt;/li&gt;
+&lt;li&gt;양초 스타일을 설정하고 다음 단계로 넘어갑니다.&lt;/li&gt;
+&lt;li&gt;스티커를 추가하고 이미지를 저장합니다.&lt;/li&gt;
+&lt;li&gt;이미지를 저장하고 소셜 미디어에 공유할 수 있습니다.&lt;/li&gt;
+&lt;/ul&gt;
 </description>
     </item>
     
     <item>
-      <title>Debate Ducks</title>
-      <link>https://strawberryoolongtea.github.io/projects/projects/</link>
-      <pubDate>Mon, 02 May 2022 19:16:14 +0900</pubDate>
+      <title>SuSang-YuHee - Debate Ducks</title>
+      <link>https://strawberryoolongtea.github.io/projects/susangyuhee/</link>
+      <pubDate>Mon, 07 Feb 2022 19:16:14 +0900</pubDate>
       
-      <guid>https://strawberryoolongtea.github.io/projects/projects/</guid>
+      <guid>https://strawberryoolongtea.github.io/projects/susangyuhee/</guid>
       <description>&lt;h2 id=&#34;debate-ducks&#34;&gt;DEBATE DUCKS&lt;/h2&gt;
 &lt;p&gt;실시간 토론 플랫폼&lt;/p&gt;
 </description>

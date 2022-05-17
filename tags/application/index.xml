@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Application on Strawberry ウーロン茶</title>
+    <link>https://strawberryoolongtea.github.io/tags/application/</link>
+    <description>Recent content in Application on Strawberry ウーロン茶</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 07 Feb 2022 19:16:14 +0900</lastBuildDate>
+    
+	<atom:link href="https://strawberryoolongtea.github.io/tags/application/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>SuSang-YuHee - Debate Ducks</title>
+      <link>https://strawberryoolongtea.github.io/projects/susangyuhee/</link>
+      <pubDate>Mon, 07 Feb 2022 19:16:14 +0900</pubDate>
+      
+      <guid>https://strawberryoolongtea.github.io/projects/susangyuhee/</guid>
+      <description>&lt;h2 id=&#34;debate-ducks&#34;&gt;DEBATE DUCKS&lt;/h2&gt;
+&lt;p&gt;실시간 토론 플랫폼&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
