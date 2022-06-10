@@ -285,6 +285,15 @@
 &lt;li&gt;변경된 DOM과 CSSOM은 다시 렌더 트리로 결합됩니다.&lt;/li&gt;
 &lt;li&gt;생성된 렌더 트리를 기반으로 레이아웃을 계산하고 브라우저 화면에 HTML 요소를 페인팅합니다.&lt;/li&gt;
 &lt;/ul&gt;
+&lt;h2 id=&#34;browser-engine&#34;&gt;Browser Engine&lt;/h2&gt;
+&lt;p&gt;브라우저 엔진은 웹 브라우저의 핵심이 되는 소프트웨어 구성 요소입니다. 브라우저 엔진의 주된 역할은 HTML 문서와 기타 자원의 웹 페이지를 사용자의 장치에 상호작용적인 시각 표현으로 변환시키는 것입니다. 일반적으로 레이아웃 엔진 또는 렌더링 엔진이라고도 불립니다. 이론적으로는 레이아웃과 렌더링(또는 페인팅)은 별도의 엔진에 의해 관리될 수 있습니다. 하지만 실제로 이 둘은 밀접하게 결합되어 있으며 따로 떼어서 간주하는 일은 드뭅니다.&lt;/p&gt;
+&lt;h3 id=&#34;브라우저-엔진의-종류httpskowikipediaorgwikiebb88ceb9dbcec9ab0eca080_ec9794eca784&#34;&gt;&lt;a href=&#34;https://ko.wikipedia.org/wiki/%EB%B8%8C%EB%9D%BC%EC%9A%B0%EC%A0%80_%EC%97%94%EC%A7%84&#34;&gt;브라우저 엔진의 종류&lt;/a&gt;&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Gecko : 모질라 재단에서 만든 레이아웃 엔진, 파이어폭스, 모질라 선더버드, 시몽키에 탑재되어 있습니다.&lt;/li&gt;
+&lt;li&gt;Blink : 웹키트에서 파생된 레이아웃 엔진, 크롬, 오페라에 탑재되어 있습니다.&lt;/li&gt;
+&lt;li&gt;Trident : 마이크로소프트의 레이아웃 엔진, IE, 아웃룩 익스프레스, 마이크로소프트 아웃룩, 윈앰프, 리얼플레이어에 탑재되어 있습니다.&lt;/li&gt;
+&lt;li&gt;Webkit : KHTML에서 파생된 레이아웃 엔진, 사파리에 탑재되어 있습니다.&lt;/li&gt;
+&lt;/ul&gt;
 &lt;h2 id=&#34;request--response&#34;&gt;Request &amp;amp; Response&lt;/h2&gt;
 &lt;p&gt;서버에 리소스를 요청하기 위해 브라우저는 주소창을 제공합니다. 브라우저의 주소창에 URL을 입력하면 URL의 호스트 이름이 DNS를 통해 IP 주소로 변환되고 이 IP 주소를 갖는 서버에게 요청을 전송합니다.&lt;/p&gt;
 &lt;h3 id=&#34;uri-url-urn&#34;&gt;URI, URL, URN&lt;/h3&gt;
